@@ -108,7 +108,7 @@ jQuery(document).ready(function(){
 	// validate signup form on keyup and submit
 	var validator = $("#contactform").validate({
 		rules: {
-			name: {
+			contactname: {
 				required: true,
 				minlength: 2
 			},
@@ -126,7 +126,7 @@ jQuery(document).ready(function(){
 			}
 		},
 		messages: {
-			name: {
+			contactname: {
 				required: "Por favor ingrese su nombre",
 				minlength: jQuery.format("Su nombre debera tener por lo menos {0} caracteres")
 			},
@@ -143,17 +143,10 @@ jQuery(document).ready(function(){
 				minlength: jQuery.format("El mensaje debera tener por lo menos {0} caracteres")
 			}
 		},
-		// Use Ajax to send everything to processForm.php
-  	submitHandler: function(form) {
-  		$("#send").append('<img src="../images/sending-email.png" alt="sending" id="sending">');
-  		$(form).ajaxSubmit({
-  			success: function(responseText, statusText, xhr, $form) {
-  				$(form).slideUp("fast");
-  				$("#response").html(responseText).hide().slideDown("fast");
-  			}
-  		});
-  		return false;
-  	}
+		// set this class to error-labels to indicate valid fields
+		success: function(label) {
+			label.addClass("checked");
+		}
 	});
 });	
 	/* ---------------------------------------------------------------------- */
