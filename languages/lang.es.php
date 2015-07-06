@@ -48,7 +48,7 @@ $lang['CONTACT'] = 'Contacto';
 
 // HABILIDADES EN PROGRAMACION
 
-$lang['SKILLS'] = 'Lenguajes de Desarrollo';
+$lang['SKILLS'] = 'Desarrollo';
 
 $lang['S1'] = 'HTML5/CSS3';
 
@@ -62,37 +62,37 @@ $lang['S2D'] = '';
 
 $lang['S2DETAILS'] = '';
 
-$lang['S3'] = 'PHP/MySQL';
+$lang['S3'] = 'Bootstrap';
 
 $lang['S3D'] = '';
 
 $lang['S3DETAILS'] = '';
 
-$lang['S4'] = 'Joomla';
+$lang['S4'] = 'AngularJS';
 
 $lang['S4D'] = '';
 
 $lang['S4DETAILS'] = '';
 
-$lang['S5'] = 'Wordpress';
+$lang['S5'] = 'Gulp/Grunt';
 
 $lang['S5D'] = '';
 
 $lang['S5DETAILS'] = '';
 
-$lang['S6'] = 'ASP.NET/MsSQL';
+$lang['S6'] = 'LESS/SASS';
 
 $lang['S6D'] = '';
 
 $lang['S6DETAILS'] = '';
 
-$lang['S7'] = 'C#';
+$lang['S7'] = 'Git/TFS';
 
 $lang['S7D'] = '';
 
 $lang['S7DETAILS'] = '';
 
-$lang['S8'] = 'Base de Datos';
+$lang['S8'] = '';
 
 $lang['S8D'] = '';
 
@@ -102,7 +102,7 @@ $lang['S8DETAILS'] = '';
 
 // HERRAMIENTAS DE DESARROLLO
 
-$lang['TOOLS'] = 'Software';
+$lang['TOOLS'] = 'Software / IDEs';
 
 $lang['T1'] = 'Photoshop';
 
@@ -110,13 +110,13 @@ $lang['T1D'] = '';
 
 $lang['T1DETAILS'] = '';
 
-$lang['T2'] = 'InDesign';
+$lang['T2'] = 'Sublime Text';
 
 $lang['T2D'] = '';
 
 $lang['T2DETAILS'] = '';
 
-$lang['T3'] = 'Illustrator';
+$lang['T3'] = 'WebStorm';
 
 $lang['T3D'] = '';
 
@@ -243,23 +243,26 @@ $lang['EXP5'] = 'Front End Developer<span class="timelineDate">Jan 2013 - Presen
 
 $lang['EXPD5'] = 'Betfred';
 
-$lang['EXPDETAILS5'] = 'Mis principales responsabilidades incluyen el apoyo operativo y desarrollo de la p&aacute;gina web principal.<br/><br/>
+$lang['EXPDETAILS5'] = 'Mis principales responsabilidades incluyen el apoyo operativo y desarrollo de la página web principal.<br/><br/>
 
 • Betfred.com<br/>
-Intervengo en todos los niveles del ciclo de vida del software. En constante comunicaci&oacute;n con todos los departamentos y la alta direcci&oacute;n. Garantizando que se cumplan todas laa normas de la arquitectura, la consistencia del c&oacute;digo y la capacidad de mantenimiento.<br/><br/>
+Intervengo en todos los niveles del ciclo de vida del software. En constante comunicación con todos los departamentos y la alta dirección. Garantizando que se cumplan todas las normas de la arquitectura, la consistencia del código y la capacidad de mantenimiento.<br/><br/>
 
-Mis principales actividades:<br/>
-- Desarrollo en ASP.NET y C # para el Gestor de Contenidos Sitecore.<br/>
+Mis principales actividades:<br/><br/>
+- Desarrollo en ASP.NET y C# para el Gestor de Contenidos Sitecore.<br/>
 - Implementaci&oacute;n en los servidores de prueba y producci&oacute;n.<br/>
-- Trabajo con los departamentos de pruebas y control de calidad para asegurar el funcionamiento del sistema completo.<br/>
+- Trabajo con los departamentos de pruebas y control de calidad para asegurar el funcionamiento del sistema completo.<br/><br/>
 
-Otros proyectos paralelos que he trabajado:<br/><br/>
+Durante mi tiempo en Betfred también he sido capaz de trabajar en proyectos paralelos de la empresa como:<br/><br/>
 
-• Betfredpubpoker.com<br/>
-Proyecto desarrollado y entregado a un socio de la empresa en el que estuve involucrado en todas las fases del ciclo de vida del software. Desde la creaci&oacute;n de entornos (locales, de ensayo y producci&oacute;n con un repositorio de c&oacute;digo), hasta el desarrollo del Back y Front End, con sus correspondientes pruebas de c&oacute;digo y posterior mantenimiento y soporte de la p&aacute;gina web.<br/><br/>
+• Totesport.com<br/>
+Estoy involucrado en el desarrollo del front-end utilizando &uacute;ltimas tecnologías como Bootstrap (LESS) y AngularJS, herramientas de desarrollo para la gesti&oacute;n de tareas (Gulp/Grunt), y gestores de paquetes (Bower), incluyendo control versiones como Git/TFS.<br/><br/>
 
-• Betfredcorporate.com<br/> 
-Web corporativa de la empresa. Instalado e implementado Wordpress CMS. Adaptando el dise&ntilde;o a un tema existente.<br/>';
+• Intranets de la Compa&ntilde;ia<br/>
+Desarrollo completo de aplicaciones web para uso interno de la empresa con las &uacute;ltimas tecnolog&iacute;as<br/><br/>
+
+• Betfredpubpoker.com y Betfredcorporate.com<br/> 
+Proyectos donde he estado involucrado en todas las fases del SDLC, desde la creaci&oacute;n de entornos (local, test y producci&oacute;n con repositorio de c&oacute;digo). Adem&aacute;s como el desarrollo del back-end y front-end, con pruebas de c&oacute;digo, mantenimiento y soporte de los sitios web.<br/>';
 
 
 // EDUCACION
