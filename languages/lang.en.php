@@ -48,7 +48,7 @@ $lang['CONTACT'] = 'Contact';
 
 // HABILIDADES EN PROGRAMACION
 
-$lang['SKILLS'] = 'Development Languages';
+$lang['SKILLS'] = 'Development';
 
 $lang['S1'] = 'HTML5/CSS3';
 
@@ -62,37 +62,37 @@ $lang['S2D'] = '';
 
 $lang['S2DETAILS'] = '';
 
-$lang['S3'] = 'PHP/MySQL';
+$lang['S3'] = 'Bootstrap';
 
 $lang['S3D'] = '';
 
 $lang['S3DETAILS'] = '';
 
-$lang['S4'] = 'Joomla';
+$lang['S4'] = 'AngularJS';
 
 $lang['S4D'] = '';
 
 $lang['S4DETAILS'] = '';
 
-$lang['S5'] = 'Wordpress';
+$lang['S5'] = 'Gulp/Grunt';
 
 $lang['S5D'] = '';
 
 $lang['S5DETAILS'] = '';
 
-$lang['S6'] = 'ASP.NET/MsSQL';
+$lang['S6'] = 'LESS/SASS';
 
 $lang['S6D'] = '';
 
 $lang['S6DETAILS'] = '';
 
-$lang['S7'] = 'C#';
+$lang['S7'] = 'Git/TFS';
 
 $lang['S7D'] = '';
 
 $lang['S7DETAILS'] = '';
 
-$lang['S8'] = 'Database';
+$lang['S8'] = '';
 
 $lang['S8D'] = '';
 
@@ -102,7 +102,7 @@ $lang['S8DETAILS'] = '';
 
 // HERRAMIENTAS DE DESARROLLO
 
-$lang['TOOLS'] = 'Software';
+$lang['TOOLS'] = 'Software / IDEs';
 
 $lang['T1'] = 'Photoshop';
 
@@ -110,13 +110,13 @@ $lang['T1D'] = '';
 
 $lang['T1DETAILS'] = '';
 
-$lang['T2'] = 'InDesign';
+$lang['T2'] = 'Sublime Text';
 
 $lang['T2D'] = '';
 
 $lang['T2DETAILS'] = '';
 
-$lang['T3'] = 'Illustrator';
+$lang['T3'] = 'WebStorm';
 
 $lang['T3D'] = '';
 
@@ -238,23 +238,26 @@ $lang['EXP5'] = 'Front End Developer<span class="timelineDate">Jan 2013 - Presen
 
 $lang['EXPD5'] = 'Betfred';
 
-$lang['EXPDETAILS5'] = 'Main responsibilities included development and operational support of the main website.<br/><br/>
+$lang['EXPDETAILS5'] = 'My main responsibilities include development and operational support of the company’s websites.<br/><br/>
 
 • Betfred.com<br/>
-Involved in all levels of an agile SDLC and in constant communication with all departments and senior management. Ensuring adherence to architecture standards, code consistency and maintainability to deliver quality software on time.<br/><br/>
+I am involved in all levels of an agile SDLC and in constant communication with all departments and senior management. I always ensure adherence to architecture standards, code consistency and maintainability to deliver quality software on time.<br/><br/>
 
-My main activities included:<br/>
+My main duties include:<br/><br/>
 -Developing for Sitecore CMS, within ASP.NET and C# environment.<br/>
 -Deploying to staging and production servers.<br/>
--Working with QA and testing departments to ensure thorough system testing.<br/>
+-Working with QA and testing departments to ensure thorough system testing.<br/><br/>
 
-Other side projects that I have worked:<br/><br/>
+During my time at Betfred I have also been able to work on side projects affiliated with the company like:<br/><br/>
 
-• Betfredpubpoker.com<br/>
-Project developed and delivered to a company partner where I was involved in all SDLC phases. From setting up environments (local, staging and production with a code repository), back and front end development, code testing, maintenance and support of the website.<br/><br/>
+• Totesport.com<br/>
+I am involved in the Front End Development using the latest technologies like Bootstrap(LESS) and AngularJS, using development tools like tasks management (Gulp/Grunt) and package manager (bower), including source control version like Git/TFS.<br/><br/>
 
-• Betfredcorporate.com<br/> 
-Company Corporate website. Installed and implemented Wordpress CMS and applied modifications to an existing theme.<br/>';
+• Companys Intranets<br/> 
+Complete development of web applications for internal use of the company with the latest technologies.<br/><br/>
+
+• Betfredpubpoker.com and Betfredcorporate.com<br/> 
+Projects where I been involved in all SDLC phases, from setting up environments (local, staging and production with a code repository). Back and Front End Development, code testing, maintenance and support of the websites.<br/>';
 
 
 // EDUCACION
