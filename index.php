@@ -56,7 +56,7 @@ include_once 'common.php';
 					<ul>
 						<li><a href="http://es.linkedin.com/in/juancruzllorens" class="social-linkedin" target="_blank"></a></li>
 						<li><a href="http://twitter.com/juancllorens" class="social-twitter" target="_blank"></a></li>
-						<li><a href=" https://www.mcpvirtualbusinesscard.com/VBCServer/JCLL/profile" target="_blank"><span class="mcts-logo"></span></a></li>
+						<li><a href="https://mcp.microsoft.com/Anonymous//Transcript/Validate" target="_blank" title="Transcript ID (1175410) - Access Code (MCProfessional)"><span class="mcts-logo"></span></a></li>
 					</ul>
 				</div>
                 <!-- /Personal info section -->
