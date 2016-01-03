@@ -402,8 +402,7 @@ include_once 'common.php';
                 <h3 class="main-heading"><span><?php echo $lang['CINFO']; ?></span></h3>
             	<ul>                        
                     <li>Email: <?php echo $lang['EMAIL']; ?></li>
-					<li><?php echo $lang['HOURS']; ?> / 8:30-17:30 (UTC +1)<br /><br /></li>
-					<li><?php echo $lang['ADDRESS']; ?><br /><br /></li>
+                    <br/>
 					<li><?php echo $lang['VCARD']; ?><br /><a href="vcard-jcll.vcf" id="vcard" title="vCard Juan Cruz Llorens"></a></li>
                 </ul>					
                 </div>

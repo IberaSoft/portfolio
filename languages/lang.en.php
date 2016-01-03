@@ -414,13 +414,7 @@ $lang['CINFO'] = 'Information';
 
 $lang['EMAIL'] = '<strong>contacto</strong>at<strong>juancruzllorens</strong>dot<strong>info</strong>';
 
-$lang['ADDRESS'] = 'Fuengirola, M&aacute;laga. Spain';
-
-$lang['PHONE'] = 'Phone';
-
-$lang['HOURS'] = 'Hours: Mo-Fri';
-
-$lang['VCARD'] = 'Add me to your contacts';
+$lang['VCARD'] = 'Add to my contacts';
 
 $lang['FORMTITLE'] = 'Send me a message';
 
