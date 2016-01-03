@@ -239,7 +239,7 @@ Mis actividades incluyen:<br/>
 • Gestion de Dominios y Hosting con plataformas WHM/cPanel, Virtuozzo y WHMCS.<br/>';
 
 
-$lang['EXP5'] = 'Front End Developer<span class="timelineDate">Jan 2013 - Present</span>';
+$lang['EXP5'] = 'Front End Developer<span class="timelineDate">Jan 2013 - Jun 2015</span>';
 
 $lang['EXPD5'] = 'Betfred';
 
@@ -263,6 +263,20 @@ Desarrollo completo de aplicaciones web para uso interno de la empresa con las &
 
 • Betfredpubpoker.com y Betfredcorporate.com<br/> 
 Proyectos donde he estado involucrado en todas las fases del SDLC, desde la creaci&oacute;n de entornos (local, test y producci&oacute;n con repositorio de c&oacute;digo). Adem&aacute;s como el desarrollo del back-end y front-end, con pruebas de c&oacute;digo, mantenimiento y soporte de los sitios web.<br/>';
+
+$lang['EXP6'] = 'Lead UX / UI Developer<span class="timelineDate">Jul 2015 - Feb 2016</span>';
+
+$lang['EXPD6'] = 'Betfred';
+
+$lang['EXPDETAILS6'] = 'En constante colaboraci&oacute;n con otros desarrolladores, dise&ntilde;adores y gestores de proyectos para concebir y crear productos de calidad.<br/><br/>
+
+• Dise&ntilde;o y desarrollo de maquetas para la web principal de la empresa con Photoshop.<br/>
+• Creaci&oacute;n de c&oacute;digo compatible entre navegadores limpio y f&aacute;cil de mantener con SASS y HTML5.<br/>
+• Implementaci&oacute;n de Bootstrap para proporcionar una excelente UX independientemente del dispositivo o plataforma.<br/>
+• Utilizaci&oacute;n de un entorno de trabajo con Gulp para automatizar tests, limpiar y minificar del c&oacute;digo.<br/>
+• Desarrollo front-end de una aplicaci&oacute;n web robusta y atractiva usando AngularJS y Babel (para compilar el c&oacute;digo en ECMAScript 6).<br/>
+• Integraci&oacute;n continua del c&oacute;digo y despliegues a entornos de prueba y producci&oacute;n con Git, TFS2013 y Octopus Deploy.<br/>
+• Asistencia a otros desarrolladores con preguntas relacionadas al c&oacute;digo y buenas pr&aacute;cticas.<br/>';
 
 
 // EDUCACION

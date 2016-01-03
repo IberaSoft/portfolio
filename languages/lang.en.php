@@ -234,7 +234,7 @@ My main activities included:<br/>
 
 
 
-$lang['EXP5'] = 'Front End Developer<span class="timelineDate">Jan 2013 - Present</span>';
+$lang['EXP5'] = 'Front End Developer<span class="timelineDate">Jan 2013 - Jun 2015</span>';
 
 $lang['EXPD5'] = 'Betfred';
 
@@ -258,6 +258,22 @@ Complete development of web applications for internal use of the company with th
 
 • Betfredpubpoker.com and Betfredcorporate.com<br/> 
 Projects where I been involved in all SDLC phases, from setting up environments (local, staging and production with a code repository). Back and Front End Development, code testing, maintenance and support of the websites.<br/>';
+
+
+
+$lang['EXP6'] = 'Lead UX / UI Developer<span class="timelineDate">Jul 2015 - Feb 2016</span>';
+
+$lang['EXPD6'] = 'Betfred';
+
+$lang['EXPDETAILS6'] = 'In constant collaboration with other developers, designers, and project managers to conceive and create great products.<br/><br/>
+
+• Designing and developing mockups for the main website with Photoshop.<br/>
+• Creating clean and maintainable cross-browser compatible code with SASS and HTML5.<br/>
+• Implementing the Bootstrap Framework to provide an excellent UX regardless of devices or platform.<br/>
+• Utilization of a work environment with Gulp to automate test-runs, linting and minification.<br/>
+Developing a responsive and engaging front end web application using AngularJS and Babel (to transpiling ECMAScript 6 code).<br/>
+• Continuous integration and deployments to test and production environments with Git, TFS 2013 and Octopus Deploy.<br/>
+• Assisting other developers with code and best-practice related questions.<br/>';
 
 
 // EDUCACION

@@ -80,6 +80,13 @@ include_once 'common.php';
                     <!-- Timeline for Employment --> 
                     <h3 class="main-heading"><span><?php echo $lang['EXPERIENCE']; ?></span></h3>
                     <ul class="timeline">
+                        <li>
+                            <div class="timelineUnit">
+                                <h4><?php echo $lang['EXP6']; ?></h4>
+                                <h5><?php echo $lang['EXPD6']; ?></h5>
+                                <p><?php echo $lang['EXPDETAILS6']; ?></p>
+                            </div>
+                        </li>
                         <li>  
                             <div class="timelineUnit">
                                 <h4><?php echo $lang['EXP5']; ?></h4>
