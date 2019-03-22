@@ -1,3 +1,5 @@
+> 🚨 Disclaimer: This Portfolio is a little outdated, I'm planning to do a rewrite by April 2019.
+
 # Portfolio
 
 Single page app with my projects from 2009 to 2012 
