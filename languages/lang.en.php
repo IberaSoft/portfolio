@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
 
 ------------------
 
@@ -20,15 +20,15 @@ $lang['PAGE_TITLE'] = 'Juan Cruz Llorens | Portfolio';
 
 $lang['HEADER'] = 'Juan Cruz Llorens';
 
-$lang['JOBTITLE'] = 'WEB DEVELOPER';
+$lang['JOBTITLE'] = 'FRONT END DEVELOPER';
 
-$lang['INTRO1'] = 'Hi, My name is Juan Cruz and I am a Web Developer with more 5+ years of experience with solid knowledges of project management tools and latest software development techniques.';
+$lang['INTRO1'] = 'Hi, My name is Juan Cruz and I am a Front End Developer with more than 10 years of experience with solid knowledges of project management tools and latest software development techniques.';
 
 $lang['SOLUTIONS'] = 'SOLUTIONS';
 
 $lang['HOWCONTACT'] = 'CONTACT ME';
 
-$lang['INTRO2'] = 'We can work together to design websites, application development, e-commerce, print design or other custom applications.';
+$lang['INTRO2'] = 'We can work together to design websites, application development, e-commerce websites or any other custom applications.';
 
 $lang['INTRO3'] = 'If you would need a quotes or have any questions, please contact me anytime and I will respond as soon as possible.';
 
@@ -46,7 +46,12 @@ $lang['CONTACT'] = 'Contact';
 
 
 
-// HABILIDADES EN PROGRAMACION
+// PROBLEM SOLVING
+// AGILE KNOWLEDGE
+// SOFTWARE DEVELOPMENT (SDLC, CI/CD, BDD, TDD, etc)
+// FRONT END SKILLS
+// TEAM WORK
+// TIME MANAGEMENT
 
 $lang['SKILLS'] = 'Development';
 
@@ -62,31 +67,31 @@ $lang['S2D'] = '';
 
 $lang['S2DETAILS'] = '';
 
-$lang['S3'] = 'Bootstrap';
+$lang['S3'] = 'TypeScript';
 
 $lang['S3D'] = '';
 
 $lang['S3DETAILS'] = '';
 
-$lang['S4'] = 'AngularJS';
+$lang['S4'] = 'React/Redux';
 
 $lang['S4D'] = '';
 
 $lang['S4DETAILS'] = '';
 
-$lang['S5'] = 'Gulp/Grunt';
+$lang['S5'] = 'NodeJS';
 
 $lang['S5D'] = '';
 
 $lang['S5DETAILS'] = '';
 
-$lang['S6'] = 'LESS/SASS';
+$lang['S6'] = 'Webpack';
 
 $lang['S6D'] = '';
 
 $lang['S6DETAILS'] = '';
 
-$lang['S7'] = 'Git/TFS';
+$lang['S7'] = 'Git';
 
 $lang['S7D'] = '';
 
@@ -104,13 +109,13 @@ $lang['S8DETAILS'] = '';
 
 $lang['TOOLS'] = 'Software / IDEs';
 
-$lang['T1'] = 'Photoshop';
+$lang['T1'] = 'Simply/Figma';
 
 $lang['T1D'] = '';
 
 $lang['T1DETAILS'] = '';
 
-$lang['T2'] = 'Sublime Text';
+$lang['T2'] = 'VSCode';
 
 $lang['T2D'] = '';
 
@@ -210,7 +215,7 @@ $lang['EXP3'] = '.NET Developer<span class="timelineDate">May 2012 - Aug 2012</s
 
 $lang['EXPD3'] = 'CIX (Cork Internet eXchange)';
 
-$lang['EXPDETAILS3'] = 'Internship as:<br/> 
+$lang['EXPDETAILS3'] = 'Internship as:<br/>
 
 • Complete company website redesign, logo vectorization, infographics and advertising for local newspaper.<br/>
 
@@ -253,10 +258,10 @@ During my time at Betfred I have also been able to work on side projects affilia
 • Totesport.com<br/>
 I am involved in the Front End Development using the latest technologies like Bootstrap(LESS) and AngularJS, using development tools like tasks management (Gulp/Grunt) and package manager (bower), including source control version like Git/TFS.<br/><br/>
 
-• Companys Intranets<br/> 
+• Companys Intranets<br/>
 Complete development of web applications for internal use of the company with the latest technologies.<br/><br/>
 
-• Betfredpubpoker.com and Betfredcorporate.com<br/> 
+• Betfredpubpoker.com and Betfredcorporate.com<br/>
 Projects where I been involved in all SDLC phases, from setting up environments (local, staging and production with a code repository). Back and Front End Development, code testing, maintenance and support of the websites.<br/>';
 
 
@@ -274,6 +279,22 @@ $lang['EXPDETAILS6'] = 'In constant collaboration with other developers, designe
 Developing a responsive and engaging front end web application using AngularJS and Babel (to transpiling ECMAScript 6 code).<br/>
 • Continuous integration and deployments to test and production environments with Git, TFS 2013 and Octopus Deploy.<br/>
 • Assisting other developers with code and best-practice related questions.<br/>';
+
+$lang['EXP7'] = 'Front End Developer<span class="timelineDate">Jul 2016 - Present</span>';
+
+$lang['EXPD7'] = 'William Hill';
+
+$lang['EXPDETAILS7'] = '
+• Working as part of agile development teams to deliver robust, engaging, and usable solutions.<br/>
+• Taking personal responsibility for components technical delivery – collaborative with senior developers and architects to design robust, scalable technical solutions.<br/>
+• Collaborating with Product Managers to keep on track with the project`s delivery plan and timelines.<br/>
+• Working closely with the UX Team to improve the website and applications for a global audience.<br/>
+• Debugging and resolving the problems by identifying and analyzing the root cause of the problem.<br/>
+• Working on CI/CD releasing to production new features and bug fixes via the most efficient delivery method.<br/>
+• Maintaining automated unit and integration test cases with Jest, React Testing Library, and Cypress.<br/>
+• Integration to the company`s website of 3rd-party software applications.<br/>
+• Contributed to developing an animated Football Scoreboard for all devices that helped to increase visits for in-play matches.<br/>
+• Awarded with the second position at the William Hill Hackathon 2017.<br/>';
 
 
 // EDUCACION
@@ -382,7 +403,7 @@ $lang['L2DETAILS'] = 'Spoken and written. B2 Advanced Level.<br/>Certificate by 
 
 // PORTFOLIO
 
-$lang['PCOMMENT'] = 'Some of my latest work';
+$lang['PCOMMENT'] = 'Some of my work as Freelance (2009-2013)';
 
 $lang['ALL'] = 'All';
 

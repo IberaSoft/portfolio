@@ -14,7 +14,7 @@ include_once 'common.php';
     <meta name="subject" content="Curriculum Vitae" />
     <meta name="robots" content="noindex, nofollow" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css"/> 
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/fancybox.css"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
@@ -22,9 +22,9 @@ include_once 'common.php';
 
 <body>
     <!-- Container -->
-    <div id="container"> 
+    <div id="container">
         <!-- Top -->
-		<div class="top"> 
+		<div class="top">
         	<!-- Logo -->
         	<div id="logo">
             	<h2><a href="index.php"><?php echo $lang['HEADER']; ?></a></h2>
@@ -32,10 +32,10 @@ include_once 'common.php';
             </div>
             <!-- /Logo -->
         </div>
-        <!-- /Top -->            
+        <!-- /Top -->
 
         <!-- Content -->
-        <div id="content" > 
+        <div id="content" >
             <!-- Profile -->
             <div id="profile">
              	<!-- About section -->
@@ -45,7 +45,7 @@ include_once 'common.php';
                     <h3><?php echo $lang['JOBTITLE']; ?></h3>
                     <p><?php echo $lang['INTRO1']; ?></p>
                 </div>
-                <!-- /About section -->                    
+                <!-- /About section -->
 
                 <!-- Personal info section -->
             	<div class="personal-info about">
@@ -60,9 +60,9 @@ include_once 'common.php';
 					</ul>
 				</div>
                 <!-- /Personal info section -->
-            </div>        
+            </div>
 
-            <!-- /Profile --> 
+            <!-- /Profile -->
             <!-- Menu -->
             <div class="menu">
             	<ul class="tabs">
@@ -72,14 +72,21 @@ include_once 'common.php';
                 	<li><a href="#contact" class="tab-contact"><?php echo $lang['CONTACT']; ?></a></li>
                 </ul>
             </div>
-            <!-- /Menu -->                 
+            <!-- /Menu -->
 
             <!-- Resume -->
             <div id="resume">
             	 <div class="timeline-section">
-                    <!-- Timeline for Employment --> 
+                    <!-- Timeline for Employment -->
                     <h3 class="main-heading"><span><?php echo $lang['EXPERIENCE']; ?></span></h3>
                     <ul class="timeline">
+                        <li>
+                            <div class="timelineUnit">
+                                <h4><?php echo $lang['EXP7']; ?></h4>
+                                <h5><?php echo $lang['EXPD7']; ?></h5>
+                                <p><?php echo $lang['EXPDETAILS7']; ?></p>
+                            </div>
+                        </li>
                         <li>
                             <div class="timelineUnit">
                                 <h4><?php echo $lang['EXP6']; ?></h4>
@@ -87,11 +94,11 @@ include_once 'common.php';
                                 <p><?php echo $lang['EXPDETAILS6']; ?></p>
                             </div>
                         </li>
-                        <li>  
+                        <li>
                             <div class="timelineUnit">
                                 <h4><?php echo $lang['EXP5']; ?></h4>
                                 <h5><?php echo $lang['EXPD5']; ?></h5>
-                                <p><?php echo $lang['EXPDETAILS5']; ?></p> 
+                                <p><?php echo $lang['EXPDETAILS5']; ?></p>
                             </div>
                         </li>
                         <li>
@@ -101,7 +108,7 @@ include_once 'common.php';
 								<p><?php echo $lang['EXPDETAILS4']; ?></p>
                             </div>
                         </li>
-						<li> 
+						<li>
                             <div class="timelineUnit">
                                 <h4><?php echo $lang['EXP3']; ?></h4>
                                 <h5><?php echo $lang['EXPD3']; ?></h5>
@@ -115,7 +122,7 @@ include_once 'common.php';
                                 <p><?php echo $lang['EXPDETAILS2']; ?></p>
                             </div>
                         </li>
-						<li> 
+						<li>
                             <div class="timelineUnit">
                                 <h4><?php echo $lang['EXP1']; ?></h4>
                                 <h5><?php echo $lang['EXPD1']; ?></h5>
@@ -126,8 +133,8 @@ include_once 'common.php';
                     </ul>
                     <!-- /Timeline for Employment -->
 
-                    <!-- Timeline for Education --> 
-                    <h3 class="main-heading"><span><?php echo $lang['EDUCATION']; ?></span></h3> 
+                    <!-- Timeline for Education -->
+                    <h3 class="main-heading"><span><?php echo $lang['EDUCATION']; ?></span></h3>
                      <ul class="timeline">
                         <li>
                             <div class="timelineUnit">
@@ -150,7 +157,7 @@ include_once 'common.php';
                                 <p><?php echo $lang['CER1DETAILS']; ?></p>
                             </div>
                         </li>
-						<li> 
+						<li>
                             <div class="timelineUnit">
                                 <h4><?php echo $lang['CURSES']; ?><span class="timelineDate">2009 - 2012</span></h4>
 								<h5><?php echo $lang['C14']; ?></h5>
@@ -183,7 +190,7 @@ include_once 'common.php';
                                 <p><?php echo $lang['C1DETAILS']; ?></p>-->
 							</div>
                         </li>
-						<li> 
+						<li>
                             <div class="timelineUnit">
                                 <h4><?php echo $lang['LANGUAGES']; ?></h4>
 								<p><?php echo $lang['L1']; ?>: <span><?php echo $lang['L1DETAILS']; ?></span></p>
@@ -191,12 +198,12 @@ include_once 'common.php';
 							</div>
                         </li>
                         <div class="clear"></div>
-                    </ul> 
+                    </ul>
                     <!-- /Timeline for Education  -->
                 </div>
 
                 <div class="skills-section">
-                    <!-- Skills --> 
+                    <!-- Skills -->
                     <h3 class="main-heading"><span><?php echo $lang['SKILLS']; ?></span></h3>
                     <ul class="skills">
                         <li>
@@ -231,9 +238,9 @@ include_once 'common.php';
                             <h4><?php echo $lang['S8']; ?></h4>
                             <span class="rat4"></span>
                         </li> -->
-                    </ul>						
+                    </ul>
 
-					<h3 class="main-heading"><span><?php echo $lang['TOOLS']; ?></span></h3> 
+					<h3 class="main-heading"><span><?php echo $lang['TOOLS']; ?></span></h3>
                     <ul class="skills">
                         <li>
                             <h4><?php echo $lang['T1']; ?></h4>
@@ -255,7 +262,7 @@ include_once 'common.php';
                             <h4><?php echo $lang['T5']; ?></h4>
                             <span class="rat6"></span>
                         </li>
-                    </ul>                   						
+                    </ul>
 
                     <h3 class="main-heading"><span><?php echo $lang['BESTPRACTICES']; ?></span></h3>
                     <ul class="skills">
@@ -287,7 +294,7 @@ include_once 'common.php';
                  <!-- /Skills -->
                  </div>
             </div>
-            <!-- /Resume -->                                        
+            <!-- /Resume -->
 
             <!-- Portfolio -->
             <div id="portfolio">
@@ -296,7 +303,7 @@ include_once 'common.php';
                     <li><a href="#" data-filter=".design"><?php echo $lang['DESIGN']; ?></a></li>
                     <li><a href="#" data-filter=".webdevelopment"><?php echo $lang['WEBDEVELOPMENT']; ?></a></li>
                     <!--<li><a href="#" data-filter=".print"><?php echo $lang['PRINT']; ?></a></li>-->
-                    <li><a href="#" data-filter=".mobileapps"><?php echo $lang['MOBILE']; ?></a></li> 
+                    <li><a href="#" data-filter=".mobileapps"><?php echo $lang['MOBILE']; ?></a></li>
                 </ul>
                 <div class="extra-text"><?php echo $lang['PCOMMENT']; ?></div>
                 <ul id="portfolio-list">
@@ -311,35 +318,35 @@ include_once 'common.php';
                         <a href="portfolio/13.jpg" rel="portfolio">
                             <img src="portfolio/13-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P13']; ?></h2>
-                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['MOBILE']; ?></span> 
+                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['MOBILE']; ?></span>
                         </a>
                 	</li>
 					<li class="webdevelopment">
                         <a href="portfolio/12.jpg" rel="portfolio">
                             <img src="portfolio/12-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P12']; ?></h2>
-                            <span class="categorie"><?php echo $lang['WEBDEVELOPMENT']; ?></span> 
+                            <span class="categorie"><?php echo $lang['WEBDEVELOPMENT']; ?></span>
                         </a>
                 	</li>
 					<li class="design webdevelopment">
                         <a href="portfolio/11.jpg" rel="portfolio">
                             <img src="portfolio/11-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P11']; ?></h2>
-                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['WEBDEVELOPMENT']; ?></span> 
+                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['WEBDEVELOPMENT']; ?></span>
                         </a>
                 	</li>
 					<li class="design webdevelopment">
                         <a href="portfolio/10.jpg" rel="portfolio">
                             <img src="portfolio/10-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P10']; ?></h2>
-                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['WEBDEVELOPMENT']; ?></span> 
+                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['WEBDEVELOPMENT']; ?></span>
                         </a>
                 	</li>
 					<li class="design webdevelopment">
                         <a href="portfolio/9.jpg" rel="portfolio">
                             <img src="portfolio/9-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P9']; ?></h2>
-                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['WEBDEVELOPMENT']; ?></span> 
+                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['WEBDEVELOPMENT']; ?></span>
                         </a>
                 	</li>
 					<li class="design webdevelopment">
@@ -353,67 +360,67 @@ include_once 'common.php';
                         <a href="portfolio/7.jpg" rel="portfolio">
                             <img src="portfolio/7-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P7']; ?></h2>
-                            <span class="categorie"><?php echo $lang['DESIGN']; ?></span> 
+                            <span class="categorie"><?php echo $lang['DESIGN']; ?></span>
                         </a>
                 	</li>
 					<li class="design webdevelopment">
                         <a href="portfolio/6.jpg" rel="portfolio">
                             <img src="portfolio/6-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P6']; ?></h2>
-                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['WEBDEVELOPMENT']; ?></span> 
+                            <span class="categorie"><?php echo $lang['DESIGN']; ?> / <?php echo $lang['WEBDEVELOPMENT']; ?></span>
                         </a>
                 	</li>
 					<li class="webdevelopment">
                         <a href="portfolio/5.jpg" rel="portfolio">
                             <img src="portfolio/5-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P5']; ?></h2>
-                            <span class="categorie"><?php echo $lang['WEBDEVELOPMENT']; ?></span> 
+                            <span class="categorie"><?php echo $lang['WEBDEVELOPMENT']; ?></span>
                         </a>
                 	</li>
 					<li class="design">
                         <a href="portfolio/4.jpg" rel="portfolio">
                             <img src="portfolio/4-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P4']; ?></h2>
-                            <span class="categorie"><?php echo $lang['DESIGN']; ?></span> 
+                            <span class="categorie"><?php echo $lang['DESIGN']; ?></span>
                         </a>
                 	</li>
 					<li class="webdevelopment">
                         <a href="portfolio/3.jpg" rel="portfolio">
                             <img src="portfolio/3-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P3']; ?></h2>
-                            <span class="categorie"><?php echo $lang['WEBDEVELOPMENT']; ?></span> 
+                            <span class="categorie"><?php echo $lang['WEBDEVELOPMENT']; ?></span>
                         </a>
                 	</li>
                     <li class="webdevelopment">
                         <a href="portfolio/2a.jpg" rel="portfolio">
-                            <img src="portfolio/2-thumb.jpg" alt="" >                            
+                            <img src="portfolio/2-thumb.jpg" alt="" >
                             <h2 class="title"><?php echo $lang['P2']; ?></h2>
-                            <span class="categorie"><?php echo $lang['WEBDEVELOPMENT']; ?></span> 
+                            <span class="categorie"><?php echo $lang['WEBDEVELOPMENT']; ?></span>
                         </a>
                 	</li>
 					<li class="design">
                         <a href="portfolio/1.jpg" rel="portfolio">
                             <img src="portfolio/1-thumb.jpg" alt="" />
                             <h2 class="title"><?php echo $lang['P1']; ?></h2>
-                            <span class="categorie"><?php echo $lang['DESIGN']; ?></span> 
+                            <span class="categorie"><?php echo $lang['DESIGN']; ?></span>
                         </a>
                 	</li>
                 </ul>
             </div>
-            <!-- /Portfolio -->                   
+            <!-- /Portfolio -->
 
             <!-- Contact -->
             <div id="contact">
             	<!-- Contact Info -->
                 <div class="contact-info">
                 <h3 class="main-heading"><span><?php echo $lang['CINFO']; ?></span></h3>
-            	<ul>                        
+            	<ul>
                     <li>Email: <?php echo $lang['EMAIL']; ?></li>
                     <br/>
 					<li><?php echo $lang['VCARD']; ?><br /><a href="vcard-jcll.vcf" id="vcard" title="vCard Juan Cruz Llorens"></a></li>
-                </ul>					
+                </ul>
                 </div>
-                <!-- /Contact Info -->										
+                <!-- /Contact Info -->
 
 				<div id="form-wrapper">
                     <h3 class="main-heading"><span><?php echo $lang['FORMTITLE']; ?></span></h3>
@@ -433,7 +440,7 @@ include_once 'common.php';
 						<div class="stage clear">
 							<p><label for="message"><?php echo $lang['YOURMESSAGE']; ?></label></p>
 							<textarea rows="8" name="message" id="message" class="required" role="textbox" aria-required="true"></textarea>
-						</div>	
+						</div>
 						<input type="submit" value="<?php echo $lang['SEND']; ?>" name="submit" id="submitButton" title="Click here to submit your message!" />
 					</form>
 
@@ -442,7 +449,7 @@ include_once 'common.php';
 				</div>
                 <!-- /Contact Form -->
             </div>
-            <!-- /contact -->  
+            <!-- /contact -->
         </div>
         <!-- /Content -->
 
@@ -452,27 +459,27 @@ include_once 'common.php';
 			<span><a href="index.php?lang=es" class="es-flag" title="Espa&ntilde;ol"></a></span>
 			<span><a href="index.php?lang=en" class="en-flag" title="English"></a></span>
         </div>
-        <!-- /Footer --> 
+        <!-- /Footer -->
     </div>
 
-		<!-- Hire Me Ribbon  
-		<div id="style-switcher">  
-			<a href="#contact" class="title"><?php echo $lang['AVAILABLE']; ?></a> <!--<?php echo $lang['BUSY']; ?> 
+		<!-- Hire Me Ribbon
+		<div id="style-switcher">
+			<a href="#contact" class="title"><?php echo $lang['AVAILABLE']; ?></a> <!--<?php echo $lang['BUSY']; ?>
         </div>-->
-		<!-- /Hire Me Ribbon --> 
+		<!-- /Hire Me Ribbon -->
        </div>
     </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
 <script type="text/javascript" src="js/respond.min.js"></script>
-<script type="text/javascript" src="js/jquery.easytabs.min.js"></script>   
+<script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
 <script type="text/javascript" src="js/jquery.adipoli.min.js"></script>
 <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="js/jquery.form.js"></script>
-<script type="text/javascript" src="js/custom.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
 
 <!-- Google Analytics -->
 <script>

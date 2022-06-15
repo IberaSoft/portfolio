@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
 
 -----------------
 
@@ -20,9 +20,9 @@ $lang['PAGE_TITLE'] = 'Juan Cruz Llorens | Portfolio';
 
 $lang['HEADER'] = 'Juan Cruz Llorens';
 
-$lang['JOBTITLE'] = 'WEB DEVELOPER';
+$lang['JOBTITLE'] = 'FRONT END DEVELOPER';
 
-$lang['INTRO1'] = 'Hola, Mi nombre es Juan Cruz y soy un desarrollador web con m&aacute;s de 5 a&ntilde;os de experiencia con conocimientos s&oacute;lidos en herramientas de gesti&oacute;n de proyectos, procesos y t&eacute;cnicas m&aacute;s avanzadas en desarrollo de software.';
+$lang['INTRO1'] = 'Hola, Mi nombre es Juan Cruz y soy un desarrollador front-end con m&aacute;s de 10 a&ntilde;os de experiencia con conocimientos s&oacute;lidos en herramientas de gesti&oacute;n de proyectos, procesos y t&eacute;cnicas m&aacute;s avanzadas en desarrollo de software.';
 
 $lang['SOLUTIONS'] = 'SOLUCIONES';
 
@@ -48,7 +48,7 @@ $lang['CONTACT'] = 'Contacto';
 
 // HABILIDADES EN PROGRAMACION
 
-$lang['SKILLS'] = 'Desarrollo';
+$lang['SKILLS'] = 'Development';
 
 $lang['S1'] = 'HTML5/CSS3';
 
@@ -62,31 +62,31 @@ $lang['S2D'] = '';
 
 $lang['S2DETAILS'] = '';
 
-$lang['S3'] = 'Bootstrap';
+$lang['S3'] = 'TypeScript';
 
 $lang['S3D'] = '';
 
 $lang['S3DETAILS'] = '';
 
-$lang['S4'] = 'AngularJS';
+$lang['S4'] = 'React/Redux';
 
 $lang['S4D'] = '';
 
 $lang['S4DETAILS'] = '';
 
-$lang['S5'] = 'Gulp/Grunt';
+$lang['S5'] = 'NodeJS';
 
 $lang['S5D'] = '';
 
 $lang['S5DETAILS'] = '';
 
-$lang['S6'] = 'LESS/SASS';
+$lang['S6'] = 'Webpack';
 
 $lang['S6D'] = '';
 
 $lang['S6DETAILS'] = '';
 
-$lang['S7'] = 'Git/TFS';
+$lang['S7'] = 'Git';
 
 $lang['S7D'] = '';
 
@@ -210,7 +210,7 @@ $lang['EXP3'] = '.NET Developer<span class="timelineDate">May 2012 - Ago 2012</s
 
 $lang['EXPD3'] = 'CIX (Cork Internet eXchange)';
 
-$lang['EXPDETAILS3'] = 'Becado:<br/> 
+$lang['EXPDETAILS3'] = 'Becado:<br/>
 
 • Redise&ntilde;o del sitio web de la empresa con Bootstrap. Vectorizaci&oacute;n de logos con Illustrator. Dise&ntilde;o de infograf&iacute;as en Photoshop. Publicidad para el peri&oacute;dico local en InDesign.<br/>
 
@@ -261,7 +261,7 @@ Estoy involucrado en el desarrollo del front-end utilizando &uacute;ltimas tecno
 • Intranets de la Compa&ntilde;ia<br/>
 Desarrollo completo de aplicaciones web para uso interno de la empresa con las &uacute;ltimas tecnolog&iacute;as<br/><br/>
 
-• Betfredpubpoker.com y Betfredcorporate.com<br/> 
+• Betfredpubpoker.com y Betfredcorporate.com<br/>
 Proyectos donde he estado involucrado en todas las fases del SDLC, desde la creaci&oacute;n de entornos (local, test y producci&oacute;n con repositorio de c&oacute;digo). Adem&aacute;s como el desarrollo del back-end y front-end, con pruebas de c&oacute;digo, mantenimiento y soporte de los sitios web.<br/>';
 
 $lang['EXP6'] = 'Lead UX / UI Developer<span class="timelineDate">Jul 2015 - Feb 2016</span>';
@@ -278,6 +278,21 @@ $lang['EXPDETAILS6'] = 'En constante colaboraci&oacute;n con otros desarrollador
 • Integraci&oacute;n continua del c&oacute;digo y despliegues a entornos de prueba y producci&oacute;n con Git, TFS2013 y Octopus Deploy.<br/>
 • Asistencia a otros desarrolladores con preguntas relacionadas al c&oacute;digo y buenas pr&aacute;cticas.<br/>';
 
+$lang['EXP7'] = 'Front End Developer<span class="timelineDate">Jul 2016 - Presente</span>';
+
+$lang['EXPD7'] = 'William Hill';
+
+$lang['EXPDETAILS7'] = '
+• Trabaje como parte de equipos de desarrollo ágiles para ofrecer soluciones sólidas, atractivas y utilizables.<br/>
+• Asumida la responsabilidad personal de la entrega técnica de los componentes: en colaboración con desarrolladores y arquitectos senior para diseñar soluciones técnicas robustas y escalables.<br/>
+• Colaboracion con los Gerentes de Producto para mantenerse al día con el plan de entrega y los plazos del proyecto.<br/>
+• Trabaje en estrecha colaboración con el equipo de UX para mejorar el sitio web y las aplicaciones para una audiencia global.<br/>
+• Depuración y resolución de problemas identificando y analizando la causa raíz del problema.<br/>
+• Trabaje en el lanzamiento de CI/CD para la producción de nuevas funciones y correcciones de errores a través del método de entrega más eficiente.<br/>
+• Mantenimiento de casos de prueba de unidad e integración automatizados con Jest, React Testing Library y Cypress.<br/>
+• Integración a la web de la empresa de aplicaciones software de terceros.<br/>
+• Contribuí al desarrollo de un marcador de fútbol animado para todos los dispositivos que ayudó a aumentar las visitas a los partidos en vivo.<br/>
+• Premiado con la segunda posición en el William Hill Hackathon 2017.<br/>';
 
 // EDUCACION
 
