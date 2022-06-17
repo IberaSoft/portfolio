@@ -5,19 +5,19 @@ include_once 'common.php';
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
     <title><?php echo $lang['PAGE_TITLE']; ?></title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="description" content="Curriculum Vitae" />
-    <meta name="keywords" content="curriculum, vitae, resume" />
+    <meta name="keywords" content="curriculum, vitae, resume, cv, portfolio, front end, developer, software, engineer" />
     <meta name="subject" content="Curriculum Vitae" />
     <meta name="robots" content="noindex, nofollow" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/fancybox.css"/>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
 </head>
 
 <body>
@@ -54,8 +54,8 @@ include_once 'common.php';
 					<h4><?php echo $lang['HOWCONTACT']; ?></h4>
 					<p><?php echo $lang['INTRO3']; ?></p>
 					<ul>
-						<li><a href="http://es.linkedin.com/in/juancruzllorens" class="social-linkedin" target="_blank"></a></li>
-						<li><a href="http://twitter.com/juancllorens" class="social-twitter" target="_blank"></a></li>
+						<li><a href="https://es.linkedin.com/in/juancruzllorens" class="social-linkedin" target="_blank"></a></li>
+						<li><a href="https://twitter.com/juancllorens" class="social-twitter" target="_blank"></a></li>
 						<li><a href="https://mcp.microsoft.com/Anonymous//Transcript/Validate" target="_blank" title="Transcript ID (1175410) - Access Code (MCProfessional)"><span class="mcts-logo"></span></a></li>
 					</ul>
 				</div>

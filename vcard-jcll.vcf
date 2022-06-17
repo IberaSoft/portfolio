@@ -1,9 +1,9 @@
 BEGIN:VCARD
 VERSION:2.1
 N:Llorens;Juan;Cruz;;
-FN:Juan Cruz Llorens 
-TITLE:Web Developer
-URL;WORK:http://juancruzllorens.info
+FN:Juan Cruz Llorens
+TITLE:Front End Developer
+URL;WORK:https://juancruzllorens.info
 EMAIL;PREF;INTERNET:contacto@juancruzllorens.info
 REV:20120916T08:21:34Z
 END:VCARD

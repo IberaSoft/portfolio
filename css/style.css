@@ -43,7 +43,7 @@
 	h4 {font-size: 15px;}
 	h5 {font-size: 13px;}
 	h6 {font-size: 12px;}
-	
+
 	h3.main-heading {
 		background-image:url('../images/plus.png');
 		background-repeat: no-repeat;
@@ -88,7 +88,7 @@
 		color:#666;
 		line-height:20px;
 	}
-		
+
 	/*-------------------------------------------------------*/
 		/* Profile Section */
 	/*-------------------------------------------------------*/
@@ -161,7 +161,7 @@
 		padding:5px;
 		/*text-indent: 9999px;*/
 	}
-	.mcts-logo{		
+	.mcts-logo{
 		width:115px;
 		height:55px;
 		background:url(../images/mcts.png) no-repeat center;
@@ -188,7 +188,7 @@
 		height:40px;
 		background:url('../images/social-linkedin-hover.png') no-repeat;
 	}
-	
+
 	/*-------------------------------------------------------*/
 		/* Menu */
 	/*-------------------------------------------------------*/
@@ -253,8 +253,8 @@
 	.tabs .active .tab-contact {
 		background-image:url(../images/contact-icon-active.png);
 	}
-	
-	
+
+
 	/*-------------------------------------------------------*/
 		/* Resume Section */
 	/*-------------------------------------------------------*/
@@ -414,7 +414,7 @@
 	}
 	#portfolio-list img {
 		background-color:#FFF;
-		height:120px; 
+		height:120px;
 		width:180px;
 	}
 	#portfolio-list li:hover .title {
@@ -502,9 +502,9 @@
 	form#contactform input:focus, form#contactform textarea:focus { outline: none; border: 1px solid #F4BB8A;}
 	#submitButton {margin-top:10px;cursor:pointer;width:100% !important;}
 	#submitButton:hover {background-color: #F4BB8A;}
-	
+
 #response {
-	padding-left: 30px;	
+	padding-left: 30px;
 }
 #response .success {
 	color: #08a300;
@@ -530,7 +530,7 @@
 	div.footer .copyright {
 		float:left;
 		color:#333;
-		padding-left:6px;		
+		padding-left:6px;
 	}
 	.es-flag {
 		float:right;
@@ -578,38 +578,37 @@
 		-moz-transition-property:-moz-transform, opacity;
 		transition-property:transform, opacity;
 	}
-	
-	
+
 /*-------------------------------------------------------*/
 	/* Ribbon */
-/*-------------------------------------------------------*/	
+/*-------------------------------------------------------*/
 #style-switcher {
 	position:absolute;
 	top:5px;
 	right:0;
-	width:100px;	
+	width:100px;
 	padding:15px;text-align: center;
 	color: #333;
 	text-align: center;
 	text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
 	background-color: #BFDC7A;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
-	background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
-	background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
-	background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
-	background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
+	background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
+	background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45);
+	background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45);
+	background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45);
 	color: #6a6340;
 	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
 	-moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
 	box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
 	}
 
-#style-switcher .title {	
-	font-size:14px;	
+#style-switcher .title {
+	font-size:14px;
 	padding:5px;
 	margin-bottom:12px;
 	}
-	
+
 #style-switcher ul { margin-top:20px; }
 #style-switcher ul li {
 	float:left;
@@ -643,11 +642,11 @@
   top: 15px;
   width: 120px;
   background-color: #BFDC7A;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
-  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
-  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
-  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
-  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45);
   color: #6a6340;
   -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
   -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
@@ -656,7 +655,7 @@
 
 .ribbon-green:before, .ribbon-green:after {
   content: "";
-  border-top:   3px solid #6e8900;   
+  border-top:   3px solid #6e8900;
   border-left:  3px solid transparent;
   border-right: 3px solid transparent;
   position:absolute;
@@ -721,7 +720,7 @@
 	/*-------------------------------------------------------*/
 		/* Contact */
 	/*-------------------------------------------------------*/
-	#form-wrapper { 
+	#form-wrapper {
 		padding-left: 20px;
 		width: 67%; }
 	.contact-info {
@@ -736,7 +735,7 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	
+
 	#container {
 		width:300px;
 		margin-top:10px;
@@ -848,7 +847,7 @@
 	/*-------------------------------------------------------*/
 		/* Contact */
 	/*-------------------------------------------------------*/
-	
+
 	#form-wrapper {
 		padding-left: 10px;
 		width: 90%;
@@ -862,7 +861,7 @@
 	}
 	.contact-info, .contact-form {
 		padding:0 10px;
-	}	
+	}
 
 #style-switcher {
 	display:none}
