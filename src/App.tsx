@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useTranslation, Trans } from 'react-i18next';
 import { Suspense } from 'react';
-import Footer from './Footer'
+import Footer from './components/Footer'
 
 const language:any = {
   en: { nativeName: 'English' },
