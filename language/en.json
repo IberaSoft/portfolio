@@ -1,0 +1,474 @@
+{
+"page-title" : "juan cruz llorens | portfolio",
+
+"header" : "juan cruz llorens",
+
+"job-title" : "front end developer",
+
+"intro1" : "hi, my name is juan cruz and i am a front end developer with more than 10 years of experience with solid knowledges of project management tools and latest software development techniques.",
+
+"solutions" : "solutions",
+
+"how-contact" : "contact me",
+
+"intro2" : "we can work together to design websites, application development, e-commerce websites or any other custom applications.",
+
+"intro3" : "if you would need a quotes or have any questions, please contact me anytime and i will respond as soon as possible.",
+
+// menu
+
+"profile" : "profile",
+
+"resume" : "resume",
+
+"portfolio" : "portfolio",
+
+"contact" : "contact",
+
+"skills" : "development",
+
+"s1" : "html5/css3",
+
+"s1d" : "",
+
+"s1details" : "",
+
+"s2" : "javascript",
+
+"s2d" : "",
+
+"s2details" : "",
+
+"s3" : "typescript",
+
+"s3d" : "",
+
+"s3details" : "",
+
+"s4" : "react/redux",
+
+"s4d" : "",
+
+"s4details" : "",
+
+"s5" : "nodejs",
+
+"s5d" : "",
+
+"s5details" : "",
+
+"s6" : "webpack",
+
+"s6d" : "",
+
+"s6details" : "",
+
+"s7" : "git",
+
+"s7d" : "",
+
+"s7details" : "",
+
+"s8" : "",
+
+"s8d" : "",
+
+"s8details" : "",
+
+
+
+// herramientas de desarrollo
+
+"tools" : "software / ides",
+
+"t1" : "simply/figma",
+
+"t1d" : "",
+
+"t1details" : "",
+
+"t2" : "vscode",
+
+"t2d" : "",
+
+"t2details" : "",
+
+"t3" : "webstorm",
+
+"t3d" : "",
+
+"t3details" : "",
+
+"t4" : "phpstorm",
+
+"t4d" : "",
+
+"t4details" : "",
+
+"t5" : "visual studio",
+
+"t5d" : "",
+
+"t5details" : "",
+
+"t6" : "",
+
+"t6d" : "",
+
+"t6details" : "",
+
+
+
+// buenas practicas de desarrollo
+
+"bestpractices" : "best practices",
+
+"bp1" : "usability",
+
+"bp1d" : "",
+
+"bp1details" : "",
+
+"bp2" : "accessibility",
+
+"bp2d" : "",
+
+"bp2details" : "",
+
+"bp3" : "web standards",
+
+"bp3d" : "",
+
+"bp3details" : "",
+
+"bp4" : "validation",
+
+"bp4d" : "",
+
+"bp4details" : "",
+
+"bp5" : "seo principles",
+
+"bp5d" : "",
+
+"bp5details" : "",
+
+"bp6" : "compatibility",
+
+"bp6d" : "",
+
+"bp6details" : "",
+
+
+
+// experiencia
+
+"experience" : "experience",
+
+"exp1" : "junior .net developer<span class="timelinedate">jan 2010 - sep 2010</span>",
+
+"expd1" : "nibisoft",
+
+"expdetails1" : "• c# and asp.net developer",
+
+
+
+"exp2" : "designer and web developer<span class="timelinedate">aug 2011 - nov 2011</span>",
+
+"expd2" : "kwik save s.l.",
+
+"expdetails2" : "• analysis, design, development and maintenance of a company e-commerce web site with prestashop.<br/>
+
+• flyers, catalogs, menus, banners and discounts cards designed in photoshop and indesign for marketing campaigns.",
+
+
+
+"exp3" : ".net developer<span class="timelinedate">may 2012 - aug 2012</span>",
+
+"expd3" : "cix (cork internet exchange)",
+
+"expdetails3" : "internship as:<br/>
+
+• complete company website redesign, logo vectorization, infographics and advertising for local newspaper.<br/>
+
+• front end development for a company website based on service oriented architecture (soa) and asp.net (mvc3 razor).",
+
+
+
+"exp4" : "designer and web developer<span class="timelinedate">jan 2009 - jan 2013</span>",
+
+"expd4" : "freelance",
+
+"expdetails4" : "• founder and developer at iberasoft.com<br/>
+
+web consultant offering a variety of services: web design, front-end & back-end development, server configuration and online marketing. from initial project planning to fully functioning complex websites ensuring that clients get cutting edge results, a strong online presence and long lasting results.<br/><br/>
+
+my main activities included:<br/>
+
+- designed and developed themes for cms like joomla!, wordpress and prestashop.<br/>
+- design and development of php/mysql admin panels with crud capabilities for commercial management.<br/>
+- domains and hosting reselling management (whm/cpanel/virtuozzo/ whmcs platforms).<br/>",
+
+
+
+"exp5" : "front end developer<span class="timelinedate">jan 2013 - jun 2015</span>",
+
+"expd5" : "betfred",
+
+"expdetails5" : "my main responsibilities include development and operational support of the company’s websites.<br/><br/>
+
+• betfred.com<br/>
+i am involved in all levels of an agile sdlc and in constant communication with all departments and senior management. i always ensure adherence to architecture standards, code consistency and maintainability to deliver quality software on time.<br/><br/>
+
+my main duties include:<br/><br/>
+-developing for sitecore cms, within asp.net and c# environment.<br/>
+-deploying to staging and production servers.<br/>
+-working with qa and testing departments to ensure thorough system testing.<br/><br/>
+
+during my time at betfred i have also been able to work on side projects affiliated with the company like:<br/><br/>
+
+• totesport.com<br/>
+i am involved in the front end development using the latest technologies like bootstrap(less) and angularjs, using development tools like tasks management (gulp/grunt) and package manager (bower), including source control version like git/tfs.<br/><br/>
+
+• companys intranets<br/>
+complete development of web applications for internal use of the company with the latest technologies.<br/><br/>
+
+• betfredpubpoker.com and betfredcorporate.com<br/>
+projects where i been involved in all sdlc phases, from setting up environments (local, staging and production with a code repository). back and front end development, code testing, maintenance and support of the websites.<br/>",
+
+
+
+"exp6" : "lead ux / ui developer<span class="timelinedate">jul 2015 - feb 2016</span>",
+
+"expd6" : "betfred",
+
+"expdetails6" : "in constant collaboration with other developers, designers, and project managers to conceive and create great products.<br/><br/>
+
+• designing and developing mockups for the main website with photoshop.<br/>
+• creating clean and maintainable cross-browser compatible code with sass and html5.<br/>
+• implementing the bootstrap framework to provide an excellent ux regardless of devices or platform.<br/>
+• utilization of a work environment with gulp to automate test-runs, linting and minification.<br/>
+developing a responsive and engaging front end web application using angularjs and babel (to transpiling ecmascript 6 code).<br/>
+• continuous integration and deployments to test and production environments with git, tfs 2013 and octopus deploy.<br/>
+• assisting other developers with code and best-practice related questions.<br/>",
+
+"exp7" : "front end developer<span class="timelinedate">jul 2016 - present</span>",
+
+"expd7" : "william hill",
+
+"expdetails7" : "
+• working as part of agile development teams to deliver robust, engaging, and usable solutions.<br/>
+• taking personal responsibility for components technical delivery – collaborative with senior developers and architects to design robust, scalable technical solutions.<br/>
+• collaborating with product managers to keep on track with the project`s delivery plan and timelines.<br/>
+• working closely with the ux team to improve the website and applications for a global audience.<br/>
+• debugging and resolving the problems by identifying and analyzing the root cause of the problem.<br/>
+• working on ci/cd releasing to production new features and bug fixes via the most efficient delivery method.<br/>
+• maintaining automated unit and integration test cases with jest, react testing library, and cypress.<br/>
+• integration to the company`s website of 3rd-party software applications.<br/>
+• contributed to developing an animated football scoreboard for all devices that helped to increase visits for in-play matches.<br/>
+• awarded with the second position at the william hill hackathon 2017.<br/>",
+
+
+// educacion
+
+"education" : "education",
+
+"edu1" : "systems engineer",
+
+"edu1d" : "national technological university (utn-frr). chaco, argentina.",
+
+"edu1details" : "more than 60% of credits approved.",
+
+"edu2" : "bachelor degree",
+
+"edu2d" : "&ldquo;m.f.m.&rdquo; high school. corrientes, argentina. homologated by the ministry of education of spain",
+
+"edu2details" : "awarded with medal of merit for best student of my class.",
+
+
+
+// certificaciones
+
+"certificates" : "certifications",
+
+"cer1" : "microsoft certified professional (mcp) and (mcts). id: 8691556",
+
+"cer1details" : "microsoft .net framework - application development foundation<br/>microsoft .net framework 3.5 - windows forms application development<br/>microsoft .net framework 3.5 - asp.net application development<br/>microsoft .net framework 3.5 - ado.net application development<br/>microsoft .net framework 3.5 - windows presentation foundation application development<br/>programming in html5 with javascript and css3 specialist",
+
+
+
+// cursos
+
+"curses" : "curses",
+
+"c14" : "forman. m&aacute;laga, spain.",
+
+"c14details" : ".net-mcts expert developer (780 hours).",
+
+"c13" : "nibisoft s.l.. m&aacute;laga, spain.",
+
+"c13details" : "computer applications programmer (984 hours).",
+
+"c12" : "instituto municipal para formaci&oacute;n y empresa (imfe). m&aacute;laga, spain.",
+
+"c12details" : " advanced php (60 hours).",
+
+"c11" : "madrid, spain.",
+
+"c11details" : "asistente al &ldquo;iii congreso de web masters&rdquo;.",
+
+"c10" : "instituto &ldquo;rafael salinas&rdquo;. m&aacute;laga, spain.",
+
+"c10details" : "web design and multimedia (364 horas).",
+
+"c9" : "instituto municipal para formaci&oacute;n y empresa&rdquo; (imfe). m&aacute;laga, spain.",
+
+"c9details" : "telecommuting and e-commerce (90 hours).",
+
+"c8" : "c.m.e. m&aacute;laga, spain.",
+
+"c8details" : "xiv jornada &ldquo;apuntes pr&aacute;cticos para dirigir su empresa&rdquo; (12 horas).",
+
+"c7" : "u.t.n.-f.r.r.. chaco, argentina.",
+
+"c7details" : "certificado ccna1 de cisco systems inc.",
+
+"c6" : "u.t.n.-f.r.r.. chaco, argentina.",
+
+"c6details" : "conferencia &ldquo;administraci&oacute;n de windows 2000 e instalaci&oacute;n y configuraci&oacute;n de linux&rdquo;",
+
+"c5" : "u.t.n.-f.r.r.. chaco, argentina.",
+
+"c5details" : "conferencia &ldquo;investigaci&oacute;n operativa&rdquo;.",
+
+"c4" : "u.t.n.-f.r.r.. chaco, argentina.",
+
+"c4details" : "conferencia &ldquo;windows 2000&rdquo;.",
+
+"c3" : "u.t.n.-f.r.r.. chaco, argentina.",
+
+"c3details" : "conferencia &ldquo;principios de bases de datos orientadas a objetos&rdquo;.",
+
+"c2" : "u.t.n.-f.r.r.. chaco, argentina.",
+
+"c2details" : "conferencia &ldquo;linux, el sistema operativo&rdquo;.",
+
+"c1" : "u.t.n.-f.r.r.. chaco, argentina.",
+
+"c1details" : "seminario &ldquo;tecnolog&iacute;a de la informaci&oacute;n de gesti&oacute;n empresaria&rdquo; (5 horas)",
+
+
+
+// idiomas
+
+"languages" : "languages",
+
+"l1" : "spanish",
+
+"l1details" : "native",
+
+"l2" : "english",
+
+"l2details" : "spoken and written. b2 advanced level.<br/>certificate by cork english college. cork, ireland (2012)",
+
+
+
+// portfolio
+
+"pcomment" : "some of my work as freelance (2009-2013)",
+
+"all" : "all",
+
+"design" : "design",
+
+"webdevelopment" : "web development",
+
+"mobile" : "mobile apps",
+
+"print" : "print",
+
+"p14" : "cork internet exchange",
+
+"p13" : "discount me",
+
+"p12" : "your kwik save",
+
+"p11" : "bulldog frances trinidad",
+
+"p10" : "lavaiswiss",
+
+"p9" : "ecmy construcciones",
+
+"p8" : "costa del sol gardens",
+
+"p7" : "delimar restaurant",
+
+"p6" : "clinica dental cima",
+
+"p5" : "cursos de odontolog&iacute;a",
+
+"p4" : "fun holydays",
+
+"p3" : "distribuidores en el mundo",
+
+"p2" : "ventas isthetime",
+
+"p1" : "c&c architects",
+
+
+
+// contacto
+
+"cinfo" : "information",
+
+"email" : "<strong>contacto</strong>at<strong>juancruzllorens</strong>dot<strong>info</strong>",
+
+"vcard" : "add to my contacts",
+
+"formtitle" : "send me a message",
+
+"yourname" : "your name",
+
+"subject" : "subject",
+
+"youremail" : "your email",
+
+"yourmessage" : "your message",
+
+"send" : "send message",
+
+"error" : "error",
+
+"reason" : "your message could not be sent for the following reasons:",
+
+"validname" : " - you have not entered your name.",
+
+"validname1" : " - your name should be at least 2 characters.",
+
+"validemail" : " - you have not entered an email address.",
+
+"validemail1" : " - the email address is not valid.",
+
+"validmsn" : " - you have not entered a message.",
+
+"validmsn1" : " - your message must be at least 10 characters.",
+
+"tryagain" : "please check the list and then try again.",
+
+"success" : "your email was successfully sent!",
+
+"success1" : "thank you",
+
+"success2" : "for using the contact form.<br/><br/>i will contact you as soon as possible.",
+
+
+
+// otros
+
+"available" : "hire me now! (available)",
+
+"busy" : "busy momentarily",
+
+"copyright" : "all rights reserved.",
+
+}

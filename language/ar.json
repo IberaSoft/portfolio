@@ -1,0 +1,16 @@
+{
+  "app-title": "تطبيقي المطبق",
+  "lead": "أهلاً بك في مكاني الصغير على النت يا {username}.",
+  "home": "الرئيسية",
+  "about": "نبذة عنا",
+  "article-plural": {
+    "zero": "لا توجد مقالات",
+    "one": "مقال {count}",
+    "two": "مقالان",
+    "few": "{count} مقالات",
+    "many": "{count} مقال",
+    "other": "{count} مقال"
+  },
+  "nyan-cat-price": "نيان كات NFT: {price}",
+  "publish-date": "نشر {publishDate}"
+}
