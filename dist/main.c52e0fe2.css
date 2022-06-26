@@ -116,14 +116,14 @@ a:-webkit-any-link {
 	}
 
 		/* Font face */
-	@font-face {
+	/* @font-face {
 	    font-family: 'icomoon';
-	    src: url('/icomoon.8ec18e71.eot');
-	    src: url('/icomoon.8ec18e71.eot?#iefix') format('embedded-opentype'),
-	         url('/icomoon.c727c55a.svg#icomoon') format('svg'),
-	         url('/icomoon.e372d059.woff') format('woff'),
-	         url('/icomoon.247d4f1e.ttf') format('truetype');
-	}
+	    src: url('../fonts/icomoon/icomoon.eot');
+	    src: url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/icomoon/icomoon.svg#icomoon') format('svg'),
+	         url('../fonts/icomoon/icomoon.woff') format('woff'),
+	         url('../fonts/icomoon/icomoon.ttf') format('truetype');
+	} */
 
 	/*-------------------------------------------------------*/
 		/* Wrap */
