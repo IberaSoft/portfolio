@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../images/header-shadow.png":[["header-shadow.99a3fcce.png","images/header-shadow.png"],"images/header-shadow.png"],"./../images/photo-inner.png":[["photo-inner.80d157c8.png","images/photo-inner.png"],"images/photo-inner.png"],"./../images/personal-info-sep.png":[["personal-info-sep.a777765c.png","images/personal-info-sep.png"],"images/personal-info-sep.png"],"./../images/tab-hover.png":[["tab-hover.e52e6d0a.png","images/tab-hover.png"],"images/tab-hover.png"],"./../images/tab-hover@2x.png":[["tab-hover@2x.a758e2e1.png","images/tab-hover@2x.png"],"images/tab-hover@2x.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../images/bg1.png":[["bg1.d6afdaee.png","images/bg1.png"],"images/bg1.png"],"./../fonts/icomoon/icomoon.eot":[["icomoon.8ec18e71.eot","fonts/icomoon/icomoon.eot"],"fonts/icomoon/icomoon.eot"],"./../fonts/icomoon/icomoon.svg":[["icomoon.c727c55a.svg","fonts/icomoon/icomoon.svg"],"fonts/icomoon/icomoon.svg"],"./../fonts/icomoon/icomoon.woff":[["icomoon.e372d059.woff","fonts/icomoon/icomoon.woff"],"fonts/icomoon/icomoon.woff"],"./../fonts/icomoon/icomoon.ttf":[["icomoon.247d4f1e.ttf","fonts/icomoon/icomoon.ttf"],"fonts/icomoon/icomoon.ttf"],"./../images/header-shadow.png":[["header-shadow.99a3fcce.png","images/header-shadow.png"],"images/header-shadow.png"],"./../images/photo-inner.png":[["photo-inner.80d157c8.png","images/photo-inner.png"],"images/photo-inner.png"],"./../images/personal-info-sep.png":[["personal-info-sep.a777765c.png","images/personal-info-sep.png"],"images/personal-info-sep.png"],"./../images/tab-hover.png":[["tab-hover.e52e6d0a.png","images/tab-hover.png"],"images/tab-hover.png"],"./../images/tab-hover@2x.png":[["tab-hover@2x.a758e2e1.png","images/tab-hover@2x.png"],"images/tab-hover@2x.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62009" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59989" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

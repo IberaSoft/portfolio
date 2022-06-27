@@ -118,16 +118,20 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/i18n.js":[function(require,module,exports) {
+var _en, _es;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 // Get browser language
 var locale = window.navigator.userLanguage || window.navigator.language;
 var translations = {
   // English translations
-  "en": {
+  "en": (_en = {
     "page-title": "Juan Cruz Llorens | Portfolio",
     "header": "Juan Cruz Llorens",
     "job-title": "FRONT END DEVELOPER",
     "social-profiles": "Social Profiles",
-    "intro1": "Hi, my name is juan cruz and i am a front end developer with more than 10 years of experience with solid knowledges of project management tools and latest software development techniques.",
+    "intro1": "Hi, my name is Juan Cruz and i am a Front End Developer with more than 10 years of experience with solid knowledges of project management tools and latest software development techniques.",
     "solutions": "SOLUTIONS",
     "how-contact": "CONTACT ME",
     "intro2": "We can work together to design websites, application development, e-commerce websites or any other custom applications.",
@@ -212,7 +216,7 @@ var translations = {
     "job-position-ife": "Internship as Frontend Developer",
     "job-timeline-ife": "May 2012 - Aug 2012",
     "company-name-ife": "CloudCIX - Full Time",
-    "job-location-ife": "Cork, Irlanda",
+    "job-location-ife": "Cork, Irleland",
     "jd-ife-1": "Complete company website redesign, logo vectorization, infographics and advertising for local newspaper.",
     "jd-ife-2": "Front end development for a company website based on Service Oriented Architecture (SOA) and ASP.NET (MVC3 Razor).",
     "job-position-dwd": "Designer and Web Developer",
@@ -266,23 +270,27 @@ var translations = {
     "course-timeline-4": "2009 (60 Hours)",
     "course-title-4": "Advanced PHP",
     "course-description-4": "",
-    // CONTACT
-    "contact-info": "Contact info",
-    "contact-form-title": "Let's keep in touch",
-    "contact-name": "Your Name",
-    "contact-email": "Your Email",
-    "contact-message": "Your Message",
-    "contact-btn-text": "Send your message",
-    // OTHERS
-    "copy-right": "© Copyright 2009 - 2022 | All rights reserved."
-  },
+    // PORTFOLIO
+    "portfolio-heading": "Some of the projects i'm proud with",
+    "all": "All",
+    "design": "Design",
+    "mobile": "Mobile Apps",
+    "web": "Web Apps",
+    "course": "Course Projects",
+    "design-title-1": "Kwik Save Stores",
+    "design-category-1": "Design",
+    "mobile-title-1": "Discount Me",
+    "mobile-category-1": "Web & Mobile App",
+    "web-title-1": "Kwik Save Stores",
+    "web-category-1": "Web Apps"
+  }, _defineProperty(_en, "course-title-1", "Kwik Save Stores"), _defineProperty(_en, "course-category-1", "Course Projects"), _defineProperty(_en, "contact-info", "Contact info"), _defineProperty(_en, "contact-form-title", "Let's keep in touch"), _defineProperty(_en, "contact-name", "Your Name"), _defineProperty(_en, "contact-email", "Your Email"), _defineProperty(_en, "contact-message", "Your Message"), _defineProperty(_en, "contact-btn-text", "Send your message"), _defineProperty(_en, "copy-right", "© Copyright 2009 - 2022 | All rights reserved."), _en),
   // Spanish translations
-  "es": {
+  "es": (_es = {
     "page-title": "Juan Cruz Llorens | Portafolio",
     "header": "Juan Cruz Llorens",
     "job-title": "FRONT END DEVELOPER",
     "social-profiles": "Perfiles Sociales",
-    "intro1": "Hola, Mi nombre es Juan Cruz y soy un desarrollador front-end con más de 10 años de experiencia con conocimientos sólidos en herramientas de gestión de proyectos, procesos y técnicas más avanzadas en desarrollo de software.",
+    "intro1": "Hola, Mi nombre es Juan Cruz y soy un Desarrollador Front End con más de 10 años de experiencia con conocimientos sólidos en herramientas de gestión de proyectos, procesos y técnicas más avanzadas en desarrollo de software.",
     "solutions": "SOLUCIONES",
     "how-contact": "HABLEMOS",
     "intro2": "Podemos trabajar juntos en el diseño de sitios webs, desarrollo de aplicaciones, comercio electrónico, diseño de impresión u otras solicitudes personalizadas.",
@@ -421,16 +429,20 @@ var translations = {
     "course-timeline-4": "2009 (60 Hours)",
     "course-title-4": "Advanced PHP",
     "course-description-4": "",
-    // CONTACT
-    "contact-info": "Información de contacto",
-    "contact-form-title": "Envieme un mensaje",
-    "contact-name": "Su nombre",
-    "contact-email": "Su correo electrónico",
-    "contact-message": "Su mensaje",
-    "contact-btn-text": "Enviar mensaje",
-    // OTHERS
-    "copy-right": "© Copyright 2009 - 2022 | Todos los derechos reservados."
-  }
+    // PORTFOLIO
+    "portfolio-heading": "Algunos de mis trabajos",
+    "all": "Todos",
+    "design": "Diseño",
+    "mobile": "Mobile Apps",
+    "web": "Web Apps",
+    "course": "Proyectos de Cursos",
+    "design-title-1": "Kwik Save Stores",
+    "design-category-1": "Design",
+    "mobile-title-1": "Discount Me",
+    "mobile-category-1": "Web & Mobile App",
+    "web-title-1": "Kwik Save Stores",
+    "web-category-1": "Web Apps"
+  }, _defineProperty(_es, "course-title-1", "Kwik Save Stores"), _defineProperty(_es, "course-category-1", "Proyectos de Cursos"), _defineProperty(_es, "contact-info", "Información de contacto"), _defineProperty(_es, "contact-form-title", "Envieme un mensaje"), _defineProperty(_es, "contact-name", "Su nombre"), _defineProperty(_es, "contact-email", "Su correo electrónico"), _defineProperty(_es, "contact-message", "Su mensaje"), _defineProperty(_es, "contact-btn-text", "Enviar mensaje"), _defineProperty(_es, "copy-right", "© Copyright 2009 - 2022 | Todos los derechos reservados."), _es)
 }; // When the page content is ready...
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -473,7 +485,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62009" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59989" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

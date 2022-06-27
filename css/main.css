@@ -88,6 +88,7 @@ textarea {
  */
 ul {
   list-style-type: none;
+  padding-inline: 12px;
 }
 
 a:-webkit-any-link {
@@ -108,22 +109,23 @@ a:-webkit-any-link {
 	}
 
 	body {
-		background-color: #E8E8E8;
+		background-image:url(../images/bg1.png);
+		background-color: #999;
 		margin: 0px;
 		padding: 0px;
-		font-family:'open Sans', Arial;
+		font-family:'Open Sans', Arial;
 		font-size: 12px;
 	}
 
-		/* Font face */
-	/* @font-face {
+	/* Font face */
+	@font-face {
 	    font-family: 'icomoon';
 	    src: url('../fonts/icomoon/icomoon.eot');
 	    src: url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
 	         url('../fonts/icomoon/icomoon.svg#icomoon') format('svg'),
 	         url('../fonts/icomoon/icomoon.woff') format('woff'),
 	         url('../fonts/icomoon/icomoon.ttf') format('truetype');
-	} */
+	}
 
 	/*-------------------------------------------------------*/
 		/* Wrap */
@@ -198,12 +200,42 @@ a:-webkit-any-link {
 	/*-------------------------------------------------------*/
 		/* Typography */
 	/*-------------------------------------------------------*/
-    h1 {font-size: 37px;}
-	h2 {font-size: 30px;}
-	h3 {font-size: 20px;}
-	h4 {font-size: 15px;}
-	h5 {font-size: 13px;}
-	h6 {font-size: 12px;}
+  h1 {
+		font-size: 37px;
+		font-weight: 900;
+	  margin-block: 0;
+    margin-inline: 0;
+	}
+	h2 {
+		font-size: 30px;
+		font-weight: 900;
+	  margin-block: 0;
+    margin-inline: 0;
+	}
+	h3 {
+		font-size: 20px;
+		font-weight: 600;
+	  margin-block: 0;
+    margin-inline: 0;
+	}
+	h4 {
+		font-size: 15px;
+		font-weight: 400;
+	  margin-block: 0;
+    margin-inline: 0;
+	}
+	h5 {
+		font-size: 13px;
+		font-weight: 400;
+	  margin-block: 0;
+    margin-inline: 0;
+	}
+	h6 {
+		font-size: 12px;
+		font-weight: 500;
+	  margin-block: 0;
+    margin-inline: 0;
+	}
 
 	strong {
 		font-weight: bold;
@@ -229,7 +261,7 @@ a:-webkit-any-link {
 		position: absolute;
 		left: 0;
 		bottom: -1px;
-		background:/*mainColor*/#fdc750;
+		background:#F4BB8A;
 	}
 	/*-------------------------------------------------------*/
 		/* Top Section */
@@ -251,12 +283,12 @@ a:-webkit-any-link {
     font-weight: 900;
     color: #2F465A;
     text-shadow: rgb(255 255 255 / 50%) 0px 1px 0px;
-    line-height: 5px;
+    line-height:40px;
 	}
 
 	#logo h4 {
 		color:#666;
-		line-height:5px;
+		line-height:20px;
 	}
 	/* Social icons */
 	.socialicons {
@@ -279,7 +311,7 @@ a:-webkit-any-link {
 		color: #FFF;
 	}
 	.socialicons li a:hover  {
-		color:/*mainColor*/#fdc750;
+		color:#F4BB8A;
 	}
 	.social-icons li:last-child {
 		margin-right:0
@@ -294,7 +326,7 @@ a:-webkit-any-link {
 		/* Profile Section */
 	/*-------------------------------------------------------*/
     #profile {
-		background:/*mainColor*/#fdc750;
+		background:/*mainColor*/#C6DFF2;
 		background-image:url(../images/header-shadow.png);
 		background-position:center bottom;
 		background-repeat:repeat-x;
@@ -318,23 +350,24 @@ a:-webkit-any-link {
 		background-color:#FFF;
 	}
 	.about h1 {
-		font-weight:900;
-		color:#FFF;
-		line-height:34px;
-		margin-top:8px;
+		font-weight: 800;
+    color: #778FA5;
+    text-shadow: rgb(255 255 255 / 50%) 0px 1px 0px;
+    line-height: 38px;
+    margin-top: 0px;
 	}
 	.about h3 {
-		margin-top:5px;
-		font-size:18px;
-		color:#FFF;
-		line-height:18px;
+		margin: 10px 0px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 18px;
+		font-weight: 500;
 	}
 	.about p {
-		font-size:14px;
-		margin-top:15px;
-		color:/*profileTextColor*/#a87f09;
-		font-weight: 400;
-		line-height:20px;
+		font-size: 14px;
+    margin: 5px 0px;
+    color: #778FA5;
+    line-height: 20px;
 	}
 	/* Personal info */
 	.personal-info {
@@ -346,26 +379,14 @@ a:-webkit-any-link {
 		background:url(../images/personal-info-sep.png) no-repeat left top;
 		padding:20px 0 0 20px;
 	}
-	.personal-info li {
-		font-size:14px;
-		margin-bottom:10px;
-		overflow: hidden;
+	.personal-info h4 {
+		color: white;
 	}
-	.personal-info li label {
-		color:/*profileTextColor*/#a87f09;
-		float:left;
-		padding:4px 7px;
-		font-weight:600;
-		border-radius: 3px;
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-	}
-	.personal-info li span {
-		float:right;
-		width:220px;
-		padding-top: 4px;
-		font-weight: 300;
-		color:/*profileTextColor*/#a87f09;
+	.personal-info p {
+		font-size: 14px;
+    margin: 10px 0px;
+    color: #778FA5;
+    line-height: 20px;
 	}
 	/*-------------------------------------------------------*/
 		/* Menu */
@@ -402,7 +423,7 @@ a:-webkit-any-link {
 		background:url('../images/tab-hover.png') no-repeat;
 	}
 	.tabs li.active a {
-		color:/*mainColor*/#fdc750;
+		color:#F4BB8A;
 	}
 
 	.tabs li > a > i {
@@ -454,34 +475,43 @@ a:-webkit-any-link {
     padding: 0;
 	}
 	.timeline li {
-		margin-bottom:20px;
+		margin-bottom:12px;
 	}
 	.timeline li .timelineUnit {
 		line-height:17px;
 		margin-left:0px;
 		color: #444;
 		font-size:13px;
-		border-left:1px solid /*mainColor*/#fdc750;
+		border-left:1px solid #F4BB8A;
 		padding-left:15px;
 	}
 	.timeline li .timelineUnit .timelineDate {
 		line-height:17px;
-		color:/*mainColor*/#fdc750;
+		color:#F4BB8A;
 		font-size:14px;
 		margin-left:10px;
 		font-weight: normal;
 		padding:2px 6px;
 		float:right;
 	}
+	.timeline li .timelineUnit ul {
+		padding-top: 12px;
+		list-style-type: disc;
+	}
 	.timeline li .timelineUnit h4 {
 		line-height:24px;
 		font-size:15px;
+		font-weight: 700;
 		color: #444;
 	}
 	.timeline li .timelineUnit h5 {
 		line-height:18px;
 		font-size:13px;
+		color: #666;
+	}
+	.timeline li .timelineUnit h6 {
 		color: #999;
+		font-style: italic;
 	}
 	.timeline li .timelineUnit p {
 		color: #666;
@@ -548,7 +578,7 @@ a:-webkit-any-link {
 		          border-radius: 0px 4px 4px 0px;
 	}
     #resume .button:hover {
-    	background-color:/*mainColor*/#fdc750;
+    	background-color:#F4BB8A;
 	}
 
 	/*-------------------------------------------------------*/
@@ -561,7 +591,6 @@ a:-webkit-any-link {
 	#portfolio-list {
 		width:820px;
 		overflow:hidden;
-    margin-left: -30px;
 	}
 	#portfolio-list li {
 		float:left;
@@ -574,7 +603,7 @@ a:-webkit-any-link {
 		width:180px;
 	}
 	#portfolio-list li:hover {
-		border-bottom:1px solid /*mainColor*/#fdc750;
+		border-bottom:1px solid #F4BB8A;
 		height:185px;
 	}
 	#portfolio-list img {
@@ -583,7 +612,7 @@ a:-webkit-any-link {
 		width:180px;
 	}
 	#portfolio-list li:hover .title {
-		color:/*mainColor*/#fdc750;
+		color:#F4BB8A;
 	}
 	#portfolio-list li .title {
 		font-size:14px;
@@ -613,10 +642,10 @@ a:-webkit-any-link {
 		margin-bottom:5px;
 	}
 	.cats-filter li a:hover {
-		background-color:/*mainColor*/#fdc750;
+		background-color:#F4BB8A;
 	}
 	.cats-filter li a.current {
-		background-color:/*mainColor*/#fdc750;
+		background-color:#F4BB8A;
 	}
 	/* adipoli */
 		.adipoli-wrapper {
@@ -689,7 +718,7 @@ a:-webkit-any-link {
     	filter:alpha(opacity=100);
 	}
     .blog-entry > a:hover h3 {
-    	color:/*mainColor*/#fdc750;
+    	color:#F4BB8A;
 	}
 
 	/* Entry Date */
@@ -750,7 +779,7 @@ a:-webkit-any-link {
     	background-color: #fbfbfb;
     	padding: 12px 9px;
     	overflow: hidden;
-    	border-left:1px solid /*mainColor*/#fdc750;
+    	border-left:1px solid #F4BB8A;
     	margin-bottom: 10px;
 	}
     .comment-child {
@@ -784,7 +813,7 @@ a:-webkit-any-link {
     	color: #ddd;
 	}
     .comment .comment-meta .reply:hover {
-    	color:/*mainColor*/#fdc750;
+    	color:#F4BB8A;
 	}
     .comment .comment-body p {
     	margin-top: 8px;
@@ -811,7 +840,7 @@ a:-webkit-any-link {
 		          border-radius: 0px 4px 4px 0px;
 	}
     #page_nav:hover {
-    	background-color:/*mainColor*/#fdc750;
+    	background-color:#F4BB8A;
 	}
 
 	/* Loading Text */
@@ -841,7 +870,7 @@ a:-webkit-any-link {
 		line-height: 20px;
 	}
 	.popular-posts-widget li h2 a:hover {
-		color:/*mainColor*/#fdc750;
+		color:#F4BB8A;
 	}
 	.popular-posts-widget li span {
 		font-size: 11px;
@@ -893,7 +922,7 @@ a:-webkit-any-link {
 		vertical-align: top;
 	}
 	.blog-single-close:hover {
-		color:/*mainColor*/#fdc750;
+		color:#F4BB8A;
 	}
 
 	/* Text widget */
@@ -923,7 +952,7 @@ a:-webkit-any-link {
 	/* Contact info */
 	.contact-info ul {
 		float:left;
-		border-left:1px solid /*mainColor*/#fdc750;
+		border-left:1px solid #F4BB8A;
 		padding-left:18px;
 	}
 	.contact-info ul li {
@@ -988,7 +1017,7 @@ a:-webkit-any-link {
 		font-size:13px;
 	}
 	.button:hover {
-		background-color:/*mainColor*/#fdc750;
+		background-color:#F4BB8A;
 	}
 	.success, .error {
 		padding:10px;
@@ -1199,7 +1228,7 @@ a:-webkit-any-link {
 		display:block;
 		width:420px;
 		background:none;
-		border-top:1px solid /*mainColor*/#fdc750;
+		border-top:1px solid #F4BB8A;
 	}
 	.personal-info li span {
 		width:280px;
@@ -1338,7 +1367,7 @@ a:-webkit-any-link {
 		display:block;
 		width:280px;
 		background:none;
-		border-top:1px solid /*mainColor*/#fdc750;
+		border-top:1px solid #F4BB8A;
 		margin-left:10px;
 		min-height:220px;
 		padding-left:0;

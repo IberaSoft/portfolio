@@ -26,12 +26,10 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/prettyPhoto.css" />
-    <link rel="stylesheet" href="css/glyphs.css"/>
     <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
     <!--[if IEMobile]>
       <link rel="stylesheet" href="css/iemobile.css" />
     <![endif]-->
@@ -71,7 +69,7 @@
             </li>
             <li>
               <a href="https://github.com/IberaSoft" class="transition"
-                >&#xe01c;
+                >&#xe01b;
               </a>
             </li>
           </ul>
@@ -116,7 +114,7 @@
           <ul class="tabs">
             <li class="tmenu">
               <a href="#profile" class="tab-profile"
-                ><i>&#xe000;</i><span data-i18n-key="profile"></span
+                ><i>&#xe02f;</i><span data-i18n-key="profile"></span
               ></a>
             </li>
             <li class="tmenu">
@@ -355,7 +353,7 @@
               </li>
               <li>
                 <h4 data-i18n-key="s2-6"></h4>
-                <div class="rating" data-rat="4"></div>
+                <div class="rating" data-rat="3"></div>
               </li>
               <li>
                 <h4 data-i18n-key="s2-7"></h4>
@@ -530,134 +528,53 @@
         <section id="portfolio">
           <ul class="cats-filter" id="portfolio-filter">
             <li>
-              <a href="" class="current transition" data-filter="*">All</a>
+              <a href="" class="current transition" data-filter="*" data-i18n-key="all"></a>
             </li>
             <li>
-              <a href="" class="transition" data-filter=".webdesign"
-                >WebDesign</a
+              <a href="" class="transition" data-filter=".design" data-i18n-key="design"></a
               >
             </li>
             <li>
-              <a href="" class="transition" data-filter=".photoghraphy"
-                >Photoghraphy</a
+              <a href="" class="transition" data-filter=".mobile" data-i18n-key="mobile"></a
               >
             </li>
             <li>
-              <a href="" class="transition" data-filter=".illustration"
-                >Illustration</a
+              <a href="" class="transition" data-filter=".web" data-i18n-key="web"></a
               >
             </li>
             <li>
-              <a href="" class="transition" data-filter=".print">Print</a>
-            </li>
-            <li>
-              <a href="" class="transition" data-filter=".animation"
-                >Animation</a
+              <a href="" class="transition" data-filter=".course" data-i18n-key="course"></a
               >
             </li>
           </ul>
-          <div class="extra-text">Some of the projects i'm proud with</div>
+          <div class="extra-text" data-i18n-key="portfolio-heading"></div>
           <ul id="portfolio-list">
-            <li class="illustration print">
-              <a
-                href="portfolio/1.jpg"
-                rel="portfolio[1]"
-                title="Lorem ipsum dolor sit amet, consectetur adipiscing Vivamus sit amet ligula non lectus.consectetur adipiscingVivamus sit amet"
-                class="folio"
-              >
-                <img src="portfolio/1-thumb.jpg" alt="Image Title" />
-                <h2 class="title">Hello Goodbye</h2>
-                <span class="categorie">Print / Illustration</span>
-              </a>
-              <a
-                href="portfolio/4.jpg"
-                rel="portfolio[1]"
-                title="This is the description"
-                class="folio hidden"
-              ></a>
-              <a
-                href="portfolio/4.jpg"
-                rel="portfolio[1]"
-                title="This is the description"
-                class="folio hidden"
-              ></a>
-              <a
-                href="portfolio/4.jpg"
-                rel="portfolio[1]"
-                title="This is the description"
-                class="folio hidden"
-              ></a>
-              <a
-                href="portfolio/4.jpg"
-                rel="portfolio[1]"
-                title="This is the description"
-                class="folio hidden"
-              ></a>
-              <a
-                href="portfolio/4.jpg"
-                rel="portfolio[1]"
-                title="This is the description"
-                class="folio hidden"
-              ></a>
-              <a
-                href="portfolio/4.jpg"
-                rel="portfolio[1]"
-                title="This is the description"
-                class="folio hidden"
-              ></a>
-            </li>
-            <li class="webdesign">
-              <a
-                href="http://www.youtube.com/watch?v=qqXi8WmQ_WM"
-                rel="portfolio"
-                title="This is the description"
-                class="folio"
-              >
-                <img src="portfolio/3-thumb.jpg" alt="" />
-                <h2 class="title">Snow time</h2>
-                <span class="categorie">Webdesign</span>
+            <li class="design">
+              <a href="portfolio/1.jpg" rel="portfolio" class="folio">
+                <img src="portfolio/1-thumb.jpg" alt="Design" />
+                <h2 class="title" data-i18n-key="design-title-1"></h2>
+                <span class="categorie" data-i18n-key="design-category-1"></span>
               </a>
             </li>
-            <li class="photoghraphy">
-              <a href="http://www.google.com" target="_new">
-                <img src="portfolio/2-thumb.jpg" alt="" />
-                <h2 class="title">Help us</h2>
-                <span class="categorie">Photography</span>
+            <li class="mobile">
+              <a href="portfolio/13.jpg" rel="portfolio" class="folio">
+                <img src="portfolio/13-thumb.jpg" alt="Mobile" />
+                <h2 class="title" data-i18n-key="mobile-title-1"></h2>
+                <span class="categorie" data-i18n-key="mobile-category-1"></span>
               </a>
             </li>
-            <li class="animation print">
+            <li class="web">
+              <a href="portfolio/3.jpg" rel="portfolio" class="folio">
+                <img src="portfolio/2-thumb.jpg" alt="Web" />
+                <h2 class="title" data-i18n-key="web-title-1"></h2>
+                <span class="categorie" data-i18n-key="web-category-1"></span>
+              </a>
+            </li>
+            <li class="course">
               <a href="portfolio/4.jpg" rel="portfolio" class="folio">
-                <img src="portfolio/4-thumb.jpg" alt="" />
-                <h2 class="title">Sunshine</h2>
-                <span class="categorie">Print / Animation</span>
-              </a>
-            </li>
-            <li class="animation">
-              <a href="portfolio/5.jpg" rel="portfolio" class="folio">
-                <img src="portfolio/5-thumb.jpg" alt="" />
-                <h2 class="title">Come together</h2>
-                <span class="categorie">Animation</span>
-              </a>
-            </li>
-            <li class="webdesign print">
-              <a href="portfolio/6.jpg" rel="portfolio" class="folio">
-                <img src="portfolio/6-thumb.jpg" alt="" />
-                <h2 class="title">The yellow</h2>
-                <span class="categorie">Webdesign / Print</span>
-              </a>
-            </li>
-            <li class="photoghraphy">
-              <a href="portfolio/7.jpg" rel="portfolio" class="folio">
-                <img src="portfolio/7-thumb.jpg" alt="" />
-                <h2 class="title">Black bird</h2>
-                <span class="categorie">Photoghraphy</span>
-              </a>
-            </li>
-            <li class="illustration">
-              <a href="portfolio/8.jpg" rel="portfolio" class="folio">
-                <img src="portfolio/8-thumb.jpg" alt="" />
-                <h2 class="title">Revolution</h2>
-                <span class="categorie">Illustration</span>
+                <img src="portfolio/3-thumb.jpg" alt="Course" />
+                <h2 class="title" data-i18n-key="course-title-1"></h2>
+                <span class="categorie" data-i18n-key="course-category-1"></span>
               </a>
             </li>
           </ul>

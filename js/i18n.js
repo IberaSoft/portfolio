@@ -8,7 +8,7 @@ const translations = {
     "header" : "Juan Cruz Llorens",
     "job-title" : "FRONT END DEVELOPER",
     "social-profiles" : "Social Profiles",
-    "intro1" : "Hi, my name is juan cruz and i am a front end developer with more than 10 years of experience with solid knowledges of project management tools and latest software development techniques.",
+    "intro1" : "Hi, my name is Juan Cruz and i am a Front End Developer with more than 10 years of experience with solid knowledges of project management tools and latest software development techniques.",
     "solutions" : "SOLUTIONS",
     "how-contact" : "CONTACT ME",
     "intro2" : "We can work together to design websites, application development, e-commerce websites or any other custom applications.",
@@ -100,7 +100,7 @@ const translations = {
     "job-position-ife" : "Internship as Frontend Developer",
     "job-timeline-ife" : "May 2012 - Aug 2012",
     "company-name-ife" : "CloudCIX - Full Time",
-    "job-location-ife" : "Cork, Irlanda",
+    "job-location-ife" : "Cork, Irleland",
     "jd-ife-1" : "Complete company website redesign, logo vectorization, infographics and advertising for local newspaper.",
     "jd-ife-2" : "Front end development for a company website based on Service Oriented Architecture (SOA) and ASP.NET (MVC3 Razor).",
 
@@ -164,6 +164,27 @@ const translations = {
     "course-title-4" : "Advanced PHP",
     "course-description-4" : "",
 
+    // PORTFOLIO
+    "portfolio-heading" : "Some of the projects i'm proud with",
+    "all" : "All",
+    "design" : "Design",
+    "mobile" : "Mobile Apps",
+    "web" : "Web Apps",
+    "course" : "Course Projects",
+
+    "design-title-1" : "Kwik Save Stores",
+    "design-category-1" : "Design",
+
+    "mobile-title-1" : "Discount Me",
+    "mobile-category-1" : "Web & Mobile App",
+
+    "web-title-1" : "Kwik Save Stores",
+    "web-category-1" : "Web Apps",
+
+    "course-title-1" : "Kwik Save Stores",
+    "course-category-1" : "Course Projects",
+
+
     // CONTACT
     "contact-info" : "Contact info",
     "contact-form-title" : "Let's keep in touch",
@@ -182,7 +203,7 @@ const translations = {
     "header" : "Juan Cruz Llorens",
     "job-title" : "FRONT END DEVELOPER",
     "social-profiles" : "Perfiles Sociales",
-    "intro1" : "Hola, Mi nombre es Juan Cruz y soy un desarrollador front-end con más de 10 años de experiencia con conocimientos sólidos en herramientas de gestión de proyectos, procesos y técnicas más avanzadas en desarrollo de software.",
+    "intro1" : "Hola, Mi nombre es Juan Cruz y soy un Desarrollador Front End con más de 10 años de experiencia con conocimientos sólidos en herramientas de gestión de proyectos, procesos y técnicas más avanzadas en desarrollo de software.",
     "solutions" : "SOLUCIONES",
     "how-contact" : "HABLEMOS",
     "intro2" : "Podemos trabajar juntos en el diseño de sitios webs, desarrollo de aplicaciones, comercio electrónico, diseño de impresión u otras solicitudes personalizadas.",
@@ -337,6 +358,26 @@ const translations = {
     "course-timeline-4" : "2009 (60 Hours)",
     "course-title-4" : "Advanced PHP",
     "course-description-4" : "",
+
+    // PORTFOLIO
+    "portfolio-heading" : "Algunos de mis trabajos",
+    "all" : "Todos",
+    "design" : "Diseño",
+    "mobile" : "Mobile Apps",
+    "web" : "Web Apps",
+    "course" : "Proyectos de Cursos",
+
+    "design-title-1" : "Kwik Save Stores",
+    "design-category-1" : "Design",
+
+    "mobile-title-1" : "Discount Me",
+    "mobile-category-1" : "Web & Mobile App",
+
+    "web-title-1" : "Kwik Save Stores",
+    "web-category-1" : "Web Apps",
+
+    "course-title-1" : "Kwik Save Stores",
+    "course-category-1" : "Proyectos de Cursos",
 
     // CONTACT
     "contact-info" : "Información de contacto",
