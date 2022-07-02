@@ -1,5 +1,5 @@
 # www.robotstxt.org/
 
-# Allow crawling of all content
+# Block all crawlers except AdsBot (AdsBot crawlers must be named explicitly)
 User-agent: *
-Disallow:
+Disallow: /

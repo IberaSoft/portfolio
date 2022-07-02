@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.1.0",
-  "description": "Single page app with my projects",
+  "description": "Single page app with my cv and projects",
   "keywords": "portfolio, cv, resume, personal, website, single page app, jquery, html5, css3, responsive, parcel",
   "license": "MIT",
   "author": "Juan Cruz Llorens",

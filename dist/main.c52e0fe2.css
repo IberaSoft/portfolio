@@ -326,7 +326,7 @@ a:-webkit-any-link {
 		/* Profile Section */
 	/*-------------------------------------------------------*/
     #profile {
-		background:/*mainColor*/#C6DFF2;
+		background:/*mainColor*/#96CAF2;
 		background-image:url(/header-shadow.99a3fcce.png);
 		background-position:center bottom;
 		background-repeat:repeat-x;
@@ -508,13 +508,13 @@ a:-webkit-any-link {
 		line-height:18px;
 		font-size:13px;
 		color: #666;
+		padding-bottom: 12px;
 	}
 	.timeline li .timelineUnit h6 {
-		color: #999;
 		font-style: italic;
 	}
 	.timeline li .timelineUnit p {
-		color: #666;
+		color: #c3c3c3;
 		font-size:12px;
 		margin-top:5px;
 	}

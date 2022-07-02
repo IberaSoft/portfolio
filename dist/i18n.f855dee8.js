@@ -118,15 +118,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/i18n.js":[function(require,module,exports) {
-var _en, _es;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 // Get browser language
 var locale = window.navigator.userLanguage || window.navigator.language;
 var translations = {
   // English translations
-  "en": (_en = {
+  "en": {
     "page-title": "Juan Cruz Llorens | Portfolio",
     "header": "Juan Cruz Llorens",
     "job-title": "FRONT END DEVELOPER",
@@ -271,21 +267,54 @@ var translations = {
     "course-title-4": "Advanced PHP",
     "course-description-4": "",
     // PORTFOLIO
-    "portfolio-heading": "Some of the projects i'm proud with",
+    "portfolio-heading": "Some of the projects i'm proud with from 2009 to 2013",
     "all": "All",
     "design": "Design",
     "mobile": "Mobile Apps",
     "web": "Web Apps",
-    "course": "Course Projects",
-    "design-title-1": "Kwik Save Stores",
-    "design-category-1": "Design",
-    "mobile-title-1": "Discount Me",
-    "mobile-category-1": "Web & Mobile App",
-    "web-title-1": "Kwik Save Stores",
-    "web-category-1": "Web Apps"
-  }, _defineProperty(_en, "course-title-1", "Kwik Save Stores"), _defineProperty(_en, "course-category-1", "Course Projects"), _defineProperty(_en, "contact-info", "Contact info"), _defineProperty(_en, "contact-form-title", "Let's keep in touch"), _defineProperty(_en, "contact-name", "Your Name"), _defineProperty(_en, "contact-email", "Your Email"), _defineProperty(_en, "contact-message", "Your Message"), _defineProperty(_en, "contact-btn-text", "Send your message"), _defineProperty(_en, "copy-right", "© Copyright 2009 - 2022 | All rights reserved."), _en),
+    "project": "Course Projects",
+    "img-title-14": "Cork Internet eXchange",
+    "img-category-14": "Web Development",
+    "img-title-13": "Discount Me",
+    "img-category-13": "Mobile Apps",
+    "img-title-12": "Your Kwik Save",
+    "img-category-12": "E-Commerce Web Site",
+    "img-title-11": "Bulldog Frances Trinidad",
+    "img-category-11": "Web Development",
+    "img-title-10": "Lavaiswiss",
+    "img-category-10": "Web Development",
+    "img-title-9": "ECMY Construcciones",
+    "img-category-9": "Web Development",
+    "img-title-8": "Costa del Sol Gardens",
+    "img-category-8": "Web Development",
+    "img-title-7": "DeliMar Restaurant",
+    "img-category-7": "Design",
+    "img-title-6": "Clinica Dental Cima",
+    "img-category-6": "Web Development",
+    "img-title-5": "Cursos de Odontologia",
+    "img-category-5": "Web Development",
+    "img-title-4": "Fun Holydays",
+    "img-category-4": "Design",
+    "img-title-3": "Distribuidores en el Mundo",
+    "img-category-3": "Backend Development",
+    "img-title-2": "Ventas Isthetime",
+    "img-category-2": "Backend Development",
+    "img-title-1": "C&C Architects",
+    "img-category-1": "Design",
+    // CONTACT
+    "contact-info": "Contact info",
+    "contact-form-title": "Let's keep in touch",
+    "contact-name": "Your Name",
+    "contact-email": "Your Email",
+    "contact-message": "Your Message",
+    "contact-btn-text": "Send your message",
+    // OTHERS
+    "copy-right": "© Copyright 2009 - 2022 | All rights reserved.",
+    "page-not-found": "Page not found",
+    "page-not-found-msg": "Sorry, but the page you were trying to view does not exist."
+  },
   // Spanish translations
-  "es": (_es = {
+  "es": {
     "page-title": "Juan Cruz Llorens | Portafolio",
     "header": "Juan Cruz Llorens",
     "job-title": "FRONT END DEVELOPER",
@@ -413,36 +442,69 @@ var translations = {
     "certificate-title-6": "Microsoft® Certified Technology Specialist: .NET Framework 3.5, Windows Forms Applications",
     "certificate-number-6": "Number Certificado: D590-2692",
     "course-heading": "Cursos",
-    "course-institution-1": "Nibisoft S.L.. Málaga, Spain.",
+    "course-institution-1": "Nibisoft S.L.. Málaga, España.",
     "course-timeline-1": "2011 (780 Hours)",
     "course-title-1": "Microsoft .NET-MCTS Expert Developer",
     "course-description-1": "",
-    "course-institution-2": "Instituto Municipal para Formación y Empresa (IMFE). Málaga, Spain.",
+    "course-institution-2": "Instituto Municipal para Formación y Empresa (IMFE). Málaga, España.",
     "course-timeline-2": "2010 (984 Hours)",
     "course-title-2": "Computer Applications Programmer",
     "course-description-2": "",
-    "course-institution-3": "Instituto Municipal para Formación y Empresa” (IMFE). Málaga, Spain.",
+    "course-institution-3": "Instituto Municipal para Formación y Empresa” (IMFE). Málaga, España.",
     "course-timeline-3": "2009 (364 Hours)",
     "course-title-3": "Web Design and Multimedia",
     "course-description-3": "",
-    "course-institution-4": "Centro de Formación Rafael Salinas. Málaga, Spain.",
+    "course-institution-4": "Centro de Formación Rafael Salinas. Málaga, España.",
     "course-timeline-4": "2009 (60 Hours)",
     "course-title-4": "Advanced PHP",
     "course-description-4": "",
     // PORTFOLIO
-    "portfolio-heading": "Algunos de mis trabajos",
+    "portfolio-heading": "Algunos de mis trabajos desde 2009 al 2013",
     "all": "Todos",
     "design": "Diseño",
     "mobile": "Mobile Apps",
     "web": "Web Apps",
-    "course": "Proyectos de Cursos",
-    "design-title-1": "Kwik Save Stores",
-    "design-category-1": "Design",
-    "mobile-title-1": "Discount Me",
-    "mobile-category-1": "Web & Mobile App",
-    "web-title-1": "Kwik Save Stores",
-    "web-category-1": "Web Apps"
-  }, _defineProperty(_es, "course-title-1", "Kwik Save Stores"), _defineProperty(_es, "course-category-1", "Proyectos de Cursos"), _defineProperty(_es, "contact-info", "Información de contacto"), _defineProperty(_es, "contact-form-title", "Envieme un mensaje"), _defineProperty(_es, "contact-name", "Su nombre"), _defineProperty(_es, "contact-email", "Su correo electrónico"), _defineProperty(_es, "contact-message", "Su mensaje"), _defineProperty(_es, "contact-btn-text", "Enviar mensaje"), _defineProperty(_es, "copy-right", "© Copyright 2009 - 2022 | Todos los derechos reservados."), _es)
+    "project": "Proyectos de Cursos",
+    "img-title-14": "Cork Internet eXchange",
+    "img-category-14": "Desarrollo Web",
+    "img-title-13": "Discount Me",
+    "img-category-13": "Mobile Apps",
+    "img-title-12": "Your Kwik Save",
+    "img-category-12": "Sitio web E-Commerce",
+    "img-title-11": "Bulldog Frances Trinidad",
+    "img-category-11": "Desarrollo Web",
+    "img-title-10": "Lavaiswiss",
+    "img-category-10": "Desarrollo Web",
+    "img-title-9": "ECMY Construcciones",
+    "img-category-9": "Desarrollo Web",
+    "img-title-8": "Costa del Sol Gardens",
+    "img-category-8": "Desarrollo Web",
+    "img-title-7": "DeliMar Restaurant",
+    "img-category-7": "Diseño",
+    "img-title-6": "Clinica Dental Cima",
+    "img-category-6": "Desarrollo Web",
+    "img-title-5": "Cursos de Odontologia",
+    "img-category-5": "Desarrollo Web",
+    "img-title-4": "Fun Holydays",
+    "img-category-4": "Diseño",
+    "img-title-3": "Distribuidores en el Mundo",
+    "img-category-3": "Desarrollo del Backend",
+    "img-title-2": "Ventas Isthetime",
+    "img-category-2": "Desarrollo del Backend",
+    "img-title-1": "C&C Architects",
+    "img-category-1": "Diseño",
+    // CONTACT
+    "contact-info": "Información de contacto",
+    "contact-form-title": "Envieme un mensaje",
+    "contact-name": "Su nombre",
+    "contact-email": "Su correo electrónico",
+    "contact-message": "Su mensaje",
+    "contact-btn-text": "Enviar mensaje",
+    // OTHERS
+    "copy-right": "© Copyright 2009 - 2022 | Todos los derechos reservados.",
+    "page-not-found": "Pagina no encontrada",
+    "page-not-found-msg": "Lo sentimos, la página que está buscando no se ha encontrado."
+  }
 }; // When the page content is ready...
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -485,7 +547,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59989" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60627" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,12 +1,12 @@
 <?
 	//define the receiver of the email
-	
-	define('TO_NAME','Rbista');
-	define('TO_EMAIL','rbista.team@gmail.com');
-	define('SUBJECT','Contact from your website');	
-	
+
+	define('TO_NAME','My Personal Website');
+	define('TO_EMAIL','iberasoftsl@gmail.com');
+	define('SUBJECT','Contact from my website');
+
 	define('TEMPLATE_PATH','template/default.php');
- 
+
 	define('SMTP_ENABLE',false); // True to enable SMTP
 	define('SMTP_HOST','');
 	define('SMTP_USERNAME','');
