@@ -410,11 +410,11 @@ a:-webkit-any-link {
 		height:116px;
 	}
 	.tabs li > a {
-		padding-top:12px;
+		padding-top:23px;
 		width:115px;
 		display:inline-block;
 		background-repeat:no-repeat;
-		font-size:16px;
+		font-size:18px;
 		color:#b9b9b9;
 		text-align:center;
 		font-weight: 300;
@@ -427,7 +427,7 @@ a:-webkit-any-link {
 	}
 
 	.tabs li > a > i {
-		font-size: 45px;
+		font-size: 35px;
 		font-family: 'icomoon';
     font-style: normal;
 		display: block;
