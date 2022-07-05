@@ -109,7 +109,7 @@ a:-webkit-any-link {
 	}
 
 	body {
-		background-image:url(../images/bg1.png);
+		background-image:url(../images/bg.png);
 		background-color: #999;
 		margin: 0px;
 		padding: 0px;
@@ -1224,11 +1224,11 @@ a:-webkit-any-link {
 	}
 	/* Personal info */
 	.personal-info {
-		margin-top:0;
+		margin-top:12px;
 		display:block;
-		width:420px;
+		width:430px;
 		background:none;
-		border-top:1px solid #F4BB8A;
+		border-top:1px solid #ededed;
 	}
 	.personal-info li span {
 		width:280px;
@@ -1367,7 +1367,7 @@ a:-webkit-any-link {
 		display:block;
 		width:280px;
 		background:none;
-		border-top:1px solid #F4BB8A;
+		border-top:1px solid #ededed;
 		margin-left:10px;
 		min-height:220px;
 		padding-left:0;

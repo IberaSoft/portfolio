@@ -7,9 +7,9 @@
 
 	define('TEMPLATE_PATH','template/default.php');
 
-	define('SMTP_ENABLE',false); // True to enable SMTP
-	define('SMTP_HOST','');
-	define('SMTP_USERNAME','');
+	define('SMTP_ENABLE',true); // True to enable SMTP
+	define('SMTP_HOST','smtp.gmail.com');
+	define('SMTP_USERNAME','iberasoftsl@gmail.com');
 	define('SMTP_PASSWORD','');
 
 	// Messages

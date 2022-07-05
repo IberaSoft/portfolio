@@ -152,29 +152,31 @@ jQuery(document).ready(function(){
 	var $plist	 	= $('#portfolio-list');
 	var $pfilter 		= $('#portfolio-filter');
 
-	// Run Isotope
-	$plist.isotope({
-		filter				: '*',
-		layoutMode   		: 'masonry',
-		animationOptions	: {
-		duration			: 750,
-		easing				: 'linear'
-	   }
-	});
-
-	// Isotope Filter
-	$pfilter.find('a').click(function(){
-	  var selector = $(this).attr('data-filter');
+	if ($plist.length && $pfilter.length) {
+		// Run Isotope
 		$plist.isotope({
-		filter				: selector,
-		animationOptions	: {
-		duration			: 750,
-		easing				: 'linear',
-		queue				: false,
-	   }
-	  });
-	  return false;
-	});
+			filter				: '*',
+			layoutMode   		: 'masonry',
+			animationOptions	: {
+			duration			: 750,
+			easing				: 'linear'
+			}
+		});
+
+		// Isotope Filter
+		$pfilter.find('a').click(function(){
+			var selector = $(this).attr('data-filter');
+			$plist.isotope({
+			filter				: selector,
+			animationOptions	: {
+			duration			: 750,
+			easing				: 'linear',
+			queue				: false,
+			}
+			});
+			return false;
+		});
+	}
 
 	// Portfolio image animation
 	$plist.find('img').adipoli({
