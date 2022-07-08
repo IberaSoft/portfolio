@@ -307,7 +307,7 @@ a:-webkit-any-link {
 		font-size: 16px;
 		display: block;
 		padding: 6px 8px;
-		background-color:#222;
+		background-color:#b9b9b9;
 		color: #FFF;
 	}
 	.socialicons li a:hover  {
@@ -319,7 +319,7 @@ a:-webkit-any-link {
 	.socialicons .socials-text {
 		padding:9px;
 		height:17px;
-		background-color:#222;
+		background-color:#b9b9b9;
 		color:#FFF;
 	}
 	/*-------------------------------------------------------*/
@@ -436,14 +436,18 @@ a:-webkit-any-link {
 
 	.next,.prev {
 		font-family: 'icomoon';
-		font-size: 34px;
-		color: #eee;
+		font-size: 30px;
 		position: absolute;
 		top:30px;
 		width: 40px;
 		background-color: #ccc;
 		text-align: center;
 		cursor: pointer;
+	}
+
+	a.next,
+	a.prev {
+		color: #eee;
 	}
 	.next {
 		right:0px;
@@ -1228,7 +1232,7 @@ a:-webkit-any-link {
 		display:block;
 		width:430px;
 		background:none;
-		border-top:1px solid #ededed;
+		border-top:1px solid #778FA5;
 	}
 	.personal-info li span {
 		width:280px;
@@ -1367,7 +1371,7 @@ a:-webkit-any-link {
 		display:block;
 		width:280px;
 		background:none;
-		border-top:1px solid #ededed;
+		border-top:1px solid #778FA5;
 		margin-left:10px;
 		min-height:220px;
 		padding-left:0;

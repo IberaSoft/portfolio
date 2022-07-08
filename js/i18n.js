@@ -1,10 +1,12 @@
 // Get browser language
-const DEFAULT_LOCALE = "en";
-let locale = window.navigator.userLanguage || window.navigator.language;
+// const DEFAULT_LOCALE = "en";
+// let locale = window.navigator.userLanguage || window.navigator.language;
 
-if (locale!=="en" || locale!=="es") {
-    locale = DEFAULT_LOCALE;
-}
+// if (locale!=="en" || locale!=="es") {
+//     locale = DEFAULT_LOCALE;
+// }
+
+const locale = "en";
 
 const translations = {
   // English translations
