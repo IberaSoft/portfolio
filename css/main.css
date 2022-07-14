@@ -115,16 +115,18 @@ a:-webkit-any-link {
 		padding: 0px;
 		font-family:'Open Sans', Arial;
 		font-size: 12px;
+		-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 	}
 
 	/* Font face */
 	@font-face {
-	    font-family: 'icomoon';
-	    src: url('../fonts/icomoon/icomoon.eot');
-	    src: url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
-	         url('../fonts/icomoon/icomoon.svg#icomoon') format('svg'),
-	         url('../fonts/icomoon/icomoon.woff') format('woff'),
-	         url('../fonts/icomoon/icomoon.ttf') format('truetype');
+		font-family: 'icomoon';
+		src: url('../fonts/icomoon/icomoon.eot');
+		src: url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+					url('../fonts/icomoon/icomoon.svg#icomoon') format('svg'),
+					url('../fonts/icomoon/icomoon.woff') format('woff'),
+					url('../fonts/icomoon/icomoon.ttf') format('truetype');
 	}
 
 	/*-------------------------------------------------------*/
@@ -219,20 +221,20 @@ a:-webkit-any-link {
     margin-inline: 0;
 	}
 	h4 {
-		font-size: 15px;
+		font-size: 16px;
 		font-weight: 400;
 	  margin-block: 0;
     margin-inline: 0;
 	}
 	h5 {
-		font-size: 13px;
-		font-weight: 400;
+		font-size: 14px;
+		font-weight: 500;
 	  margin-block: 0;
     margin-inline: 0;
 	}
 	h6 {
-		font-size: 12px;
-		font-weight: 500;
+		font-size: 14px;
+		font-weight: 400;
 	  margin-block: 0;
     margin-inline: 0;
 	}
@@ -485,7 +487,7 @@ a:-webkit-any-link {
 		line-height:17px;
 		margin-left:0px;
 		color: #444;
-		font-size:13px;
+		font-size:14px;
 		border-left:1px solid #F4BB8A;
 		padding-left:15px;
 	}
@@ -512,7 +514,6 @@ a:-webkit-any-link {
 		line-height:18px;
 		font-size:13px;
 		color: #666;
-		padding-bottom: 12px;
 	}
 	.timeline li .timelineUnit h6 {
 		font-style: italic;
@@ -1309,7 +1310,7 @@ a:-webkit-any-link {
 @media only screen and (max-width: 479px) {
 
 	#container {
-		width:300px;
+		width:96%;
 		margin-top:10px;
 	}
 	.extra-text {
@@ -1318,6 +1319,11 @@ a:-webkit-any-link {
 	/*-------------------------------------------------------*/
 		/* Top Section */
 	/*-------------------------------------------------------*/
+	header {
+		height:53px;
+		margin-bottom:12px;
+		overflow:hidden;
+	}
 	/* Logo */
 	#logo h2 {
 		font-size:25px;
@@ -1329,9 +1335,6 @@ a:-webkit-any-link {
 		color:#666;
 		line-height:15px;
 	}
-	.socialicons {
-		display:none !important;
-	}
 	/*-------------------------------------------------------*/
 		/* Profile Section */
 	/*-------------------------------------------------------*/
@@ -1341,16 +1344,19 @@ a:-webkit-any-link {
 	}
 	/* About */
 	.about {
-		width:280px;
-		display:block;
-		margin:10px 0 15px 10px;
+		width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px;
 	}
 	.about .photo-inner {
+		float: none;
+    align-self: center;
 		margin-left:40px;
 		background:url(../images/photo-inner.png) no-repeat;
 		width:192px;
 		height:212px;
-		padding:12px 0 0 20px;
 	}
 	.about h1 {
 		line-height:38px;
@@ -1358,7 +1364,7 @@ a:-webkit-any-link {
 		text-align:center;
 	}
 	.about h3 {
-		font-size:14px;
+		font-size:18px;
 		line-height:14px;
 		text-align:center;
 	}
@@ -1369,7 +1375,7 @@ a:-webkit-any-link {
 	.personal-info {
 		margin-top:0;
 		display:block;
-		width:280px;
+		width:95%;
 		background:none;
 		border-top:1px solid #778FA5;
 		margin-left:10px;
@@ -1401,46 +1407,66 @@ a:-webkit-any-link {
 		height:100px;
 		background-color:#ededed;
 		position:relative;
-		width: 200px;
+		width: 75%;
 		padding-left: 50px;
 		padding-right: 50px;
 	}
 	/*-------------------------------------------------------*/
 		/* Resume */
 	/*-------------------------------------------------------*/
-	#resume {
-		padding:10px;
+	#resume,
+	#certificates,
+	#portfolio {
+		padding:12px;
 	}
 	.timeline-section {
-		width:280px;
+		width: 100%;
 		padding-right:60px;
 	}
 	.skills-section {
-		width:280px;
+		width: 100%;
+    display: flex;
+    flex-direction: column;
 	}
-	.skills li h4 {
-		width:120px;
+	.skills li {
+		display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+		width: 100%;
+	}
+	#resume .button {
+		background-color: #F4BB8A;
 	}
 	/*-------------------------------------------------------*/
 		/* Portfolio */
 	/*-------------------------------------------------------*/
 	#portfolio-list {
-		width:280px;
+		width: 100%;
+		margin: 0;
+    padding: 0;
 	}
 	#portfolio-list li {
-		margin-left:40px;
+		margin: 0 auto;
+    width: 100%;
+    float: none;
+    padding: 12px 0 0;
+		border: none;
 	}
+	#portfolio-list li + li {
+		border-top: 1px solid #e5e5e5;
+	}
+
 	/*-------------------------------------------------------*/
 		/* Blog */
 	/*-------------------------------------------------------*/
 	.blog-content-wrapper {
-		width: 260px;
+		width: 360px;
 	}
 	.blog-entry img {
-		width: 260px;
+		width: 360px;
 	}
 	.blog-sidebar {
-		width: 260px;
+		width: 360px;
 		margin-left:0px;
 	}
     .comment .comment-meta{
@@ -1478,11 +1504,11 @@ a:-webkit-any-link {
 	/*-------------------------------------------------------*/
 
 	.contact-info {
-		width:280px;
+		width:380px;
 	}
 	.contact-form {
 		margin-top:20px;
-		width:280px;
+		width:380px;
 	}
 	.contact-info, .contact-form {
 		padding:0 10px;
