@@ -10,4 +10,4 @@ Single page app with my projects from 2009 to 2013
 3. Google fonts
 
 
-> Visit [my website](https://juancruzllorens.info/) :)
+> Visit [my website](https://juancruzllorens.dev/) :)
