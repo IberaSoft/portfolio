@@ -1,0 +1,10 @@
+# www.robotstxt.org/
+
+# Block all crawlers except AdsBot (AdsBot crawlers must be named explicitly)
+User-agent: *
+Disallow: /
+# www.robotstxt.org/
+
+# Block all crawlers except AdsBot (AdsBot crawlers must be named explicitly)
+User-agent: *
+Disallow: /
