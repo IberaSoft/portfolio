@@ -218,7 +218,7 @@ const translations = {
     "contact-btn-text" : "Send your message",
 
     // OTHERS
-    "copy-right" : "© Copyright 2009 - 2022 | All rights reserved.",
+    "copy-right" : "© Copyright 2009 - 2023 | All rights reserved.",
     "page-not-found" : "Page not found",
     "page-not-found-msg" : "Sorry, but the page you were trying to view does not exist.",
   },
@@ -431,7 +431,7 @@ const translations = {
     "contact-btn-text" : "Enviar mensaje",
 
     // OTHERS
-    "copy-right" : "© Copyright 2009 - 2022 | Todos los derechos reservados.",
+    "copy-right" : "© Copyright 2009 - 2023 | Todos los derechos reservados.",
     "page-not-found" : "Pagina no encontrada",
     "page-not-found-msg" : "Lo sentimos, la página que está buscando no se ha encontrado.",
   },
